@@ -1,0 +1,37 @@
+
+/* Import fonts to the project */
+@import url('https://fonts.googleapis.com/css2?family=Offside&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Define theme color to be incorporated in Bootstrap styles */
+$theme-colors: (
+  'main': #8257E5,
+  'primary': #9871F5,
+  'secondary': #04D361,
+  'whitish': #F0F0F7,
+);
+
+/* Import Bootstrap styles framework */
+@import '~bootstrap/scss/bootstrap';
+
+/* Additional global custom styles */
+* {
+  font-family: Roboto, sans-serif;
+}
+
+::selection, ::-moz-selection {
+  color: #fff;
+  background: #8257E5;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
