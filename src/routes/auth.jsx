@@ -1,9 +1,9 @@
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
-import Home from '../components/Home'
-import BookForm from '../components/BookForm'
-import BookDetails from '../components/BookDetails'
-import UserForm from '../components/UserForm'
-import UserDetails from '../components/BookDetails'
+import Home from '../pages/Home'
+import BookForm from '../pages/BookForm'
+import BookDetails from '../pages/BookDetails'
+import UserForm from '../pages/UserForm'
+import UserDetails from '../pages/BookDetails'
 
 const Routes = () => (
   <BrowserRouter>
