@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "username": "GRR20180001",
+    "password": "senha123",
+    "firstName": "Gustavo",
+    "lastName": "Oliveira"
+  },
+  {
+    "id": 2,
+    "username": "GRR20180002",
+    "password": "senha123",
+    "firstName": "Júlio",
+    "lastName": "Muller"
+  },
+  {
+    "id": 3,
+    "username": "GRR20180003",
+    "password": "senha123",
+    "firstName": "Luan",
+    "lastName": "Araújo"
+  }
+]
