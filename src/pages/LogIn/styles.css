@@ -1,0 +1,88 @@
+
+#login {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#login > .container {
+  max-width: 720px;
+}
+
+#login #app-title {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 32px;
+}
+
+#login .card {
+  border: none;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+#login .card img.img-h {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#login .card img.img-v {
+  display: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#login .card .input-group {
+  margin-bottom: 1.6rem;
+}
+
+#login .card button[type="submit"] {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#login .card .card-footer {
+  text-align: center;
+}
+
+#login footer {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+/* breakpoint SM */
+@media (min-width: 576px) {
+  #login #app-title {
+    font-size: 48px;
+  }
+}
+
+/* breakpoint MD */
+@media (min-width: 768px) {
+  #login .card .card-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #login .card img.img-h {
+    display: none;
+  }
+
+  #login .card img.img-v {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+/* breakpoint LG */
+@media (min-width: 992px) {
+  #login {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
