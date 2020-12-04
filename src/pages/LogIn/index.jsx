@@ -18,7 +18,9 @@ const LogIn = () => (
           </div>
           <div className="col-md-7">
             <div className="card-body">
-              <h5 className="card-title d-none d-block-md">Bem-vindo à Bibliote Solidária</h5>
+              <h2 className="card-title h4">
+                Seja muito bem-vind@
+              </h2>
               <p className="card-text">
                 Este é o portal oficial da Universidade Federal do Paraná para compartilhar suas
                 experiências literárias, especialmente com aqueles que precisam. Aqui você poderá

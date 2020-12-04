@@ -5,15 +5,20 @@
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 
+$main: #8257e5;
+$primary: #9871f5;
+$secondary: #04d361;
+$whitish: #f0f0f7;
+
 // Overwrite default theme provided by Bootstrap
 $border-radius:               .50rem !default;
 $border-radius-lg:            .6rem !default;
 $border-radius-sm:            .4rem !default;
 $theme-colors: (
-  'main': #8257e5,
-  'primary': #9871f5,
-  'secondary': #04d361,
-  'whitish': #f0f0f7,
+  'main': $main,
+  'primary': $primary,
+  'secondary': $secondary,
+  'whitish': $whitish,
 );
 
 // Import Bootstrap styles framework
@@ -26,7 +31,7 @@ $theme-colors: (
 
 ::selection, ::-moz-selection {
   color: #fff;
-  background: #8257E5;
+  background-color: #8257E5;
 }
 
 html, body, #root {
