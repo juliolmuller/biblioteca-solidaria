@@ -1,19 +1,15 @@
-import { useAuth } from '../../hooks'
+import './styles.css'
+import Header from '../../components/TheHeader'
 
-const Home = () => {
-  const { logout } = useAuth()
-
-  return (
-    <div id="home">
+const Home = () => (
+  <div id="home">
+    <Header />
+    <div className="container pt-5">
       <h1 className="text-main">
         Hello, Home!
       </h1>
-
-      <button type="button" className="btn btn-primary" onClick={logout}>
-        SAIR
-      </button>
-  </div>
-  )
-}
+    </div>
+</div>
+)
 
 export default Home
