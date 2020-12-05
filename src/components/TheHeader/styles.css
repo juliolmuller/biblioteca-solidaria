@@ -1,0 +1,23 @@
+
+#the-header #app-title {
+  font-size: 28px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#the-header .user-controls {
+  margin-left: 60px;
+}
+
+#the-header .user-controls img {
+  object-fit: contain;
+  height: 24px;
+  margin-left: 16px;
+}
+
+#the-header .user-controls .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  right: 0;
+  left: auto;
+}
