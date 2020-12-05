@@ -6,7 +6,7 @@ import LogInForm from './LogInForm'
 
 const LogIn = () => (
   <div id="login" className="bg-main">
-    <div className="container">
+    <div className="container-tiny">
       <h1 id="app-title">
         Biblioteca Solidária
       </h1>
@@ -35,7 +35,7 @@ const LogIn = () => (
               </small>
               <small>
                 Novo na plataforma?
-                <Link to="/cadastro">Cadastre-se aqui</Link>
+                <Link to="/cadastrar">Cadastre-se aqui</Link>
               </small>
             </div>
           </div>

@@ -53,3 +53,13 @@ button.btn:focus, a.btn:focus {
   box-shadow: none;
   outline: none;
 }
+
+.container-tiny {
+  @extend .container;
+}
+
+@media (min-width: 992px) {
+  .container-tiny {
+    max-width: 860px;
+  }
+}

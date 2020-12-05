@@ -4,10 +4,6 @@
   min-height: 100vh;
 }
 
-#login > .container {
-  max-width: 860px;
-}
-
 #login #app-title {
   text-align: center;
   padding-bottom: 30px;
