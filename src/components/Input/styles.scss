@@ -1,0 +1,77 @@
+
+.input-component {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+    label {
+      margin-bottom: 0;
+    }
+
+    small {
+      color: red;
+      font-style: italic;
+
+      &::before {
+        content: '* ';
+      }
+    }
+
+    @media (max-width: 768px) {
+      & {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      small {
+        margin-left: 0.5rem;
+
+        &::before {
+          content: '(';
+        }
+
+        &::after {
+          content: ')'
+        }
+      }
+    }
+  }
+
+  .custom-checkbox {
+    left: 1.5rem;
+  }
+
+  input {
+    margin-bottom: 1rem;
+    font-size: large;
+  }
+
+  .image-picker {
+    margin-bottom: 1rem;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+  }
+}
