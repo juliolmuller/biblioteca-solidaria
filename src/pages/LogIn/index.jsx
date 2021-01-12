@@ -42,7 +42,7 @@ const LogIn = () => (
         </div>
       </div>
       <footer className="text-whitish">
-        UFPR &copy; Todos os Direitos Reservados
+        UFPR &copy; {new Date().getFullYear()} - Todos os Direitos Reservados
       </footer>
     </div>
   </div>
