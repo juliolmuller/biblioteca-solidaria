@@ -16,7 +16,7 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "@lacussoft/eslint-config-standard": "^1.0.9",
+    "@lacussoft/eslint-config": "^1.0.1",
     "node-sass": "^4.14.1",
     "react-scripts": "^4.0.1"
   },
@@ -24,7 +24,7 @@
     "root": true,
     "extends": [
       "react-app",
-      "@lacussoft/standard"
+      "@lacussoft"
     ]
   },
   "browserslist": {
