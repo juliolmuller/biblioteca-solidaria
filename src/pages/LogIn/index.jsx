@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
+import LogInForm from './LogInForm'
 import verticalImg from '../../images/login-cover-v.jpg'
 import horizontalImg from '../../images/login-cover-h.jpg'
-import './styles.css'
-import LogInForm from './LogInForm'
+import './styles.scss'
 
 const LogIn = () => (
   <div id="login" className="bg-main">

@@ -1,5 +1,5 @@
-import './styles.css'
 import Header from '../../components/TheHeader'
+import './styles.scss'
 
 const UserForm = () => (
   <div id="user-form">

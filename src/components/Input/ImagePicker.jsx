@@ -22,7 +22,7 @@ const ImagePicker = ({ model: [value, setBase64], ...rest }) => {
       fluidImage.current.style.height = `${fluidImage.current.clientWidth}px`
     }
     window.onresize()
-  })
+  }, [])
 
   return (
     <div className="image-picker row">

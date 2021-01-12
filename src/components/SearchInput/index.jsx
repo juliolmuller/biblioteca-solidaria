@@ -1,4 +1,4 @@
-import './styles.css'
+import './styles.scss'
 
 const SearchInput = ({ searchText, label, onSubmit, ...rest }) => {
   const fieldId = parseInt(Math.random() * 1000, 10)

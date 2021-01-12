@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useAuth } from '../../hooks'
-import './styles.css'
 import SearchInput from '../SearchInput'
 import UserControls from './UserControls'
+import './styles.scss'
 
 const TheHeader = ({ searchControls }) => {
   const { isAuthenticated } = useAuth()
