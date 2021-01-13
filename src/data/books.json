@@ -1,761 +1,715 @@
 [
   {
-    "id": "QmmGZwEACAAJ",
-    "title": "Interação Humano-Computador",
-    "authors": [
-      "Fonte: Wikipedia"
-    ],
-    "publisher": "Books LLC, Wiki Series",
-    "year": "2011-06",
-    "description": "Fonte: Wikipedia. P ginas: 53. Cap tulos: Identifica o autom tica e captura de dados, Interface do utilizador, United Kingdom National DNA Database, T cnicas de recolha de requisitos de usabilidade, Lei de Fitts, Joy of use, C digo de barras, Kinect, Acessibilidade Web, C digo QR, GNUstep, WYSIWYG, Ecr multit til, Warehouse Management System, Design de intera o, Realce de sintaxe, CSCW, Ecr t til, WebAIM, Reconhecimento de fala, Pseudoterminal, Cart o inteligente, Captura de ecr, Datilografia, Fernanda Vi gas, Reconhecimento tico de caracteres, ABBYY, Tecla de atalho, Display, Cortar, copiar e colar, Thunderbolt, Interpretador de comandos, Glade, Assistente, Mecanog, Teste de Turing, Entrada/sa da, Motif, T cnicas de avalia o da usabilidade, Mezzo, Xpadder, H ptico, Touchless, Barra de status, Design de interface de usu rio, Persona, EyeTap, FLTK, Dasher, Windows PowerShell, rea de transfer ncia, Cursor, rea de trabalho, Mindball, Manipula o direta, WYSIWYM, Leitor de c digo de barras, Navega o estrutural, Engenharia da usabilidade, Magnetic ink character recognition, Affordance, FLUID, Computa o humana, Encontrabilidade, Ben Shneiderman, CyberCode, Bodystorming, Din mica da digita o. Excerto: A NDNAD, ou United Kingdom National DNA Database (Base Nacional de Dados de ADN do Reino Unido, em portugu s) uma base nacional de dados de ADN criada em 1995, no Reino Unido. No final do ano de 2005 j albergava perfis de ADN de cerca de 3.1 milh es de pessoas. Esta base de dados, que aumenta em cerca de 30,000 amostras todos os meses, elaborada a partir de amostras recolhidas de locais de crime ou colhidas de suspeitos de crime . Na Inglaterra e no Pa?'s de Gales qualquer pessoa detida e presa numa esquadra policial obrigatoriamente sujeita a um processo de colheita de ADN. Esta base de dados de ADN apenas armazena padr es de microssat lites e n o a sequ ncia completa do genoma. Actualmente os dez locus do sistema SGM plus s o analisados, resultando num...",
-    "pages": 54,
-    "language": "pt",
-    "image": {}
-  },
-  {
-    "id": "0A16DwAAQBAJ",
-    "title": "LÃ³gica De ProgramaÃ§Ã£o",
-    "authors": [
-      "Ronaldo Lavestein"
-    ],
+    "id": 1,
+    "title": "Lógica de Programação",
+    "author": "Ronaldo Lavestein",
     "publisher": "Clube de Autores (managed)",
-    "year": "101-01-01",
-    "description": "Scratch Ã© uma linguagem de programaÃ§Ã£o que permite que vocÃª crie, de maneira fÃ¡cil, suas prÃ³prias histÃ³rias interativas, animaÃ§Ãµes, jogos, mÃºsicas, artes e tambÃ©m compartilhe suas criaÃ§Ãµes com outras pessoas na Internet. Ele tambÃ©m pode ser utilizado como ferramenta complementar para que alunos da Ã¡rea de ciÃªncia da computaÃ§Ã£o desenvolvam seu raciocÃ­nio lÃ³gico e aprendam a programar. O Scratch foi desenvolvido pelo LifelongKindergartenGroup no MIT Media Lab. Ã‰ permitido, de forma gratuita, para qualquer pessoa que obtenha uma cÃ³pia deste software, o direito de usar, copiar, publicar ou distribuir cÃ³pias do mesmo, desde que lhe sejam publicados os devidos crÃ©ditos.",
+    "description": "Scratch a uma linguagem de programação que permite que você crie, de maneira fácil, suas próprias histórias interativas, animações, jogos, músicas, artes e também compartilhe suas criações com outras pessoas na Internet. Ele também pode ser utilizado como ferramenta complementar para que alunos da área de ciência da computação desenvolvam seu raciocí­nio lógico e aprendam a programar. O Scratch foi desenvolvido pelo LifelongKindergartenGroup no MIT Media Lab. É permitido, de forma gratuita, para qualquer pessoa que obtenha uma cópia deste software, o direito de usar, copiar, publicar ou distribuir cópias do mesmo, desde que lhe sejam publicados os devidos créditos.",
+    "year": 2001,
     "pages": 100,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "RY7kp2dT0jwC",
+    "id": 2,
     "title": "Arquitetura de Nuvem (AWS)",
-    "authors": [
-      "Manoel Veras"
-    ],
+    "author": "Manoel Veras",
     "publisher": "Brasport",
     "description": "A computação de nuvem oferece inúmeros benefícios, incluindo elasticidade, pagamento pelo uso efetivo dos recursos, infraestrutura de autosserviço e automação baseada em APIs. Ela permite que as organizações tenham DATACENTERS automatizados e paguem somente por aquilo que utilizam. A plataforma utilizada para o desenho da arquitetura é a Amazon Web Services (AWS), que é abordada em detalhes e de forma estruturada. A própria Amazon utiliza a arquitetura AWS para operar um dos maiores varejos online do mundo. Empresas como Shell, Samsung, NASA, The New York Times, Grupo Pão de Açúcar, Gol Linhas Aéreas e SulAmérica Seguros já desfrutam dos benefícios da computação de nuvem e estabeleceram novas arquiteturas orientadas pela demanda. O livro traz uma abordagem sobre a construção de um DATACENTER utilizando a Arquitetura De Nuvem e a estratégia adotada foi estruturá-lo em três grandes partes; Aspectos Básicos, com conceitos, infraestrutura, precificação, identidade e acesso Serviços de Infraestrutura, sobre os serviços de computação, armazenamento, rede, banco de dados e gerenciamento; e Aspectos Avançados, cobrindo desenho da arquitetura, governança, segurança e continuidade.",
+    "year": 2001,
     "pages": 416,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "ovcmLgEACAAJ",
-    "title": "ARQUITETURA DE SISTEMAS - PARA WEB COM JAVA",
-    "authors": [
-      "EVANDRO CARLOS TERUEL"
-    ],
-    "description": "Sumário - Arquitetura de aplicações web em três camadas; Exemplo de aplicação web utilizando a Arquitetura em Três Camadas e o padrão MVC; Reuso de componentes - Design Patterns e Frameworks; Hibernate; JavaServer Pages Standard Tag Library (JSTL); JavaServer Face; O Futuro do Desenvolvimento de Software - Ferramentas de Apoio ao Desenvolvimento Rápido de Softwares.",
-    "pages": 576,
-    "language": "pt",
-    "image": {}
-  },
-  {
-    "id": "wERUmgEACAAJ",
-    "title": "DESIGN DE INTERAÇAO",
-    "authors": [
-      "HELEN SHARP",
-      "YVONNE ROGERS",
-      "JENNIFER PREECE",
-      "ISABELA GASPARINI"
-    ],
-    "description": "Este livro oferece uma abordagem interdisciplinar, prática e orientada a processo, não apenas mostrando os princípios, mas principalmente como eles podem ser aplicados ao design de interação. As autoras ampliam o escopo nesta nova edição, incluindo as mais recentes tecnologias e dispositivos, como redes sociais, Web 2.0 e dispositivos móveis.",
-    "pages": 599,
-    "language": "pt",
-    "image": {}
-  },
-  {
-    "id": "HZwOffp2QfgC",
+    "id": 3,
     "title": "User Experience (UX) Design for Libraries",
-    "authors": [
-      "Aaron Schmidt",
-      "Amanda Etches"
-    ],
+    "author": "Aaron Schmidt, Amanda Etches",
     "publisher": "American Library Association",
-    "year": "2012",
     "description": "User experience (UX) characterizes how a person feels about using a product, system or service. UX design incorporates the practical aspects of utility, ease of use and efficiency to make your web design and functionality decisions with patrons in mind. This results in a better design, a more intuitive interface, and a more enjoyable experience. This book shows you how to get there by providing hands-on steps and best practices for UX design principles, practices, and tools to engage with patrons online and build the best web presence for your library. You ll find out how to conduct a usability test, perform a card sort, make decisions on how to build the architecture of your site, create personas as a cornerstone of your website planning process, create a content strategy, and perform an experience-based evaluation of your site.",
+    "year": 2012,
     "pages": 112,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "UKrDctoNzBMC",
+    "id": 4,
     "title": "Lógica de Programação",
-    "authors": [
-      "Alexandre Berg"
-    ],
+    "author": "Alexandre Berg",
     "publisher": "Editora da ULBRA",
-    "year": "2006",
     "description": "Este livro é o resultado de vários anos de pesquisa e ensino da disciplina Lógica de Programação. Sistematiza conteúdo teórico e prática de exercícios de dificuldade progressiva. Apresenta técnicas de organização do pensamento para a solução de problemas,",
+    "year": 2006,
     "pages": 179,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Novo",
+    "images": [
+      "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "tDjrDwAAQBAJ",
+    "id": 5,
     "title": "Learning React",
-    "authors": [
-      "Alex Banks",
-      "Eve Porcello"
-    ],
+    "author": "Alex Banks e Eve Porcello",
     "publisher": "O'Reilly Media",
-    "year": "2020-06-12",
     "description": "If you want to learn how to build efficient React applications, this is your book. Ideal for web developers and software engineers who understand how JavaScript, CSS, and HTML work in the browser, this updated edition provides best practices and patterns for writing modern React code. No prior knowledge of React or functional JavaScript is necessary. With their learning road map, authors Alex Banks and Eve Porcello show you how to create UIs that can deftly display changes without page reloads on large-scale, data-driven websites. You’ll also discover how to work with functional programming and the latest ECMAScript features. Once you learn how to build React components with this hands-on guide, you’ll understand just how useful React can be in your organization. Understand key functional programming concepts with JavaScriptLook under the hood to learn how React runs in the browserCreate application presentation layers with React componentsManage data and reduce the time you spend debugging applicationsIncorporate React Hooks to manage state and fetch dataUse a routing solution for single-page application featuresLearn how to structure React applications with servers in mind",
+    "year": 2020,
     "pages": 310,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=tDjrDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=tDjrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "Desgastado",
+    "images": [
+      "http://books.google.com/books/content?id=tDjrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "sECCDwAAQBAJ",
+    "id": 6,
     "title": "Introdução à programação com Python – 3ª edição",
-    "authors": [
-      "Nilo Ney Coutinho Menezes"
-    ],
+    "author": "Nilo Ney Coutinho Menezes",
     "publisher": "Novatec Editora",
-    "year": "2019-01-03",
     "description": "Este livro é orientado ao iniciante em programação. Os conceitos básicos de programação, como expressões, variáveis, repetições, decisões, listas, dicionários, conjuntos, funções, arquivos, classes, objetos e banco de dados com SQLite 3 são apresentados um a um com exemplos e exercícios. A obra visa a explorar a programação de computadores como ferramenta do dia a dia. Ela pode ser lida durante um curso de introdução à programação de computadores e usada como guia de estudo para autodidatas. Para aproveitamento pleno do conteúdo, apenas conhecimentos básicos de informática, como digitar textos, abrir e salvar arquivos, são suficientes. Todo software utilizado no livro pode ser baixado gratuitamente, sendo executado em Windows, Linux e Mac OS X. Embora a linguagem Python (versão +3.7) seja muito poderosa e repleta de recursos modernos de programação, este livro não pretende ensinar a linguagem em si, mas ensinar a programar. Alguns recursos da linguagem não foram utilizados para privilegiar os exercícios de lógica de programação e oferecer uma preparação mais ampla ao leitor para outras linguagens. Essa escolha não impediu a apresentação de recursos poderosos da linguagem, e, embora o livro não seja fundamentalmente uma obra de referência, o leitor encontrará várias notas e explicações de características específicas do Python, além da lógica de programação.",
+    "year": 2019,
     "pages": 328,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "-yjpAwAAQBAJ",
+    "id": 7,
     "title": "Web Semântica Para Leigos",
-    "authors": [
-      "Pollock, Jeffrey"
-    ],
+    "author": "Pollock, Jeffrey",
     "publisher": "Alta Books Editora",
-    "year": "2011-07-19",
     "description": "Conheça a Web do amanhã – agora mesmo! A Web Semântica muda completamente a forma como nós interagimos com os dados na vastidão da Internet. Então, se você for um consumidor e estiver fazendo uma pesquisa online, ou dono de uma empresa que quer oferecer aos seus clientes um site mais útil, ou um gerente de TI ansioso para entender as soluções de Web Semântica, este livro é o lugar para começar! Abra este livro e descubra: • O que define a Web 3.0. • Um breve comentário sobre as especificações técnicas. • Como os negócios irão mudar quando a Web Semântica se estabelecer. • Dez mitos comuns da Web Semântica. • Como separar o exagero da realidade. • Interessantes estudos de caso dos primeiros sucessos da Web Semântica. • As principais prioridades para os CIOs. • Como as tecnologias familiares se adaptam à Web Semântica. Neste livro você encontrará: • Explicações em português de fácil entendimento. • Informações fáceis de localizar e passo a passo. • Ícones e outros recursos de identificação e memorização. • Folha de cola para destacar com informações práticas. • Listas dos 10 melhores itens relacionados ao assunto. • Um toque de humor e diversão.",
+    "year": 2011,
     "pages": 424,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=-yjpAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=-yjpAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=-yjpAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=-yjpAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "SsH-qdTx9pUC",
+    "id": 8,
     "title": "HP-UX 11i Internals",
-    "authors": [
-      "Chris Cooper",
-      "Chris G. Moore"
-    ],
+    "author": "Chris Cooper e Chris G. Moore",
     "publisher": "Prentice Hall Professional",
-    "year": "2004",
     "description": "With under-the-hood insight, Cooper offers invaluable information for optimizing HP-UX performance, reliability, and efficiency. Readers find out how to approach system administration, tuning, and troubleshooting from a more informed perspective. This book is for every HP-UX sys admin, programmer, and performance specialist.",
+    "year": 2004,
     "pages": 386,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "2jwK0Dey_0oC",
-    "title": "Webwriting - Redação & Informação para a Web",
-    "publisher": "Brasport",
-    "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=2jwK0Dey_0oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=2jwK0Dey_0oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
-  },
-  {
-    "id": "Hz5ODwAAQBAJ",
+    "id": 9,
     "title": "Lógica de Programação e Algoritmos com JavaScript",
-    "authors": [
-      "Edécio Fernando Iepsen"
-    ],
+    "author": "Edécio Fernando Iepsen",
     "publisher": "Novatec Editora",
-    "year": "2018-03-01",
     "description": "Os conteúdos abordados em Lógica de Programação e Algoritmos são fundamentais a todos aqueles que desejam ingressar no universo da Programação de Computadores. Esses conteúdos, no geral, impõem algumas dificuldades aos iniciantes. Neste livro, o autor utiliza sua experiência de mais de 15 anos em lecionar a disciplina de Algoritmos em cursos de graduação, para trabalhar o assunto passo a passo. Cada capítulo foi cuidadosamente planejado a fim de evitar a sobrecarga de informações ao leitor, com exemplos e exercícios de fixação para cada assunto. Os exemplos e exercícios são desenvolvidos em JavaScript, linguagem amplamente utilizada no desenvolvimento de páginas para a internet. Rodar os programas JavaScript não exige nenhum software adicional; é preciso apenas abrir a página em seu navegador favorito. Como o aprendizado de Algoritmos ocorre a partir do estudo das técnicas de programação e da prática de exercícios, este livro pretende ser uma importante fonte de conhecimentos para você ingressar nessa fascinante área da programação de computadores. Assuntos abordados no livro: Fundamentos de Lógica de Programação Programas de entrada, processamento e saída Integração do código JavaScript com as páginas HTML Estruturas condicionais e de repetição Depuração de Programas JavaScript Manipulação de listas de dados (vetores) Operações sobre cadeias de caracteres (strings) e datas Eventos JavaScript e funções com passagem de parâmetros Persistência dos dados de um programa com localStorage Inserção de elementos HTML via JavaScript com referência a DOM No capítulo final, um jogo em JavaScript e novos exemplos que exploram os recursos discutidos ao longo do livro são apresentados com comentários e dicas, a fim de incentivar o leitor a prosseguir nos estudos sobre programação.",
+    "year": 2018,
     "pages": 320,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Novo",
+    "images": [
+      "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "hzNCDwAAQBAJ",
+    "id": 10,
     "title": "Acessibilidade na web",
-    "authors": [
-      "Reinaldo Ferraz"
-    ],
+    "author": "Reinaldo Ferraz",
     "publisher": "Senac",
-    "year": "2017-12-07",
     "description": "A Série Universitária foi desenvolvida pelo Senac São Paulo com o intuito de preparar profissionais para o mercado de trabalho. Os títulos abrangem diversas áreas, abordando desde conhecimentos teóricos e práticos adequados às exigências profissionais até a formação ética e sólida. O livro aponta as principais técnicas de desenvolvimento para tornar uma página Web acessível. Entre os temas abordados estão uma breve apresentação sobre a importância da acessibilidade na Web, exemplos de como os padrões Web podem ajudar no processo para que uma página seja acessível e as técnicas de como fazê-lo. O livro trata ainda do impacto que essa acessibilidade tem para as pessoas com deficiência e reforça como ela é relevante para todas as pessoas em geral. O objetivo desta obra é trazer ao leitor, de forma simples, a importância da acessibilidade na Web, apresentando quem são os beneficiados e quais são as principais barreiras de acesso às páginas, bem como maneiras de solucioná-las.",
+    "year": 2017,
     "pages": 137,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=hzNCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=hzNCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=hzNCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=hzNCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "yc2YZFRjcAQC",
+    "id": 11,
     "title": "React",
-    "authors": [
-      "Jacob Dotson"
-    ],
+    "author": "Jacob Dotson",
     "publisher": "Jacob Dotson",
-    "year": "2009-07-09",
     "description": "In today's society, teenagers are confronted with issues that no other generation has encountered. These pressures of life often seem unbearable. React challenges readers to look to God in times of trouble and seek His strength and guidance.",
+    "year": 2009,
     "pages": 112,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=yc2YZFRjcAQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=yc2YZFRjcAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=yc2YZFRjcAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=yc2YZFRjcAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "d_s4AgAAQBAJ",
+    "id": 12,
     "title": "Design de Interação - 3ed",
-    "authors": [
-      "Yvonne Rogers",
-      "Helen Sharp",
-      "Jennifer Preece"
-    ],
+    "author": "Yvonne Rogers, Helen Sharp e Jennifer Preece",
     "publisher": "Bookman Editora",
-    "year": "2013-01-01",
     "description": "Este livro oferece uma abordagem interdisciplinar, prática e orientada a processo, não apenas mostrando os princípios, mas principalmente como eles podem ser aplicados ao design de interação. As autoras, reconhecidas líderes e educadoras em suas áreas, ampliam o escopo nesta nova edição, incluindo as mais recentes tecnologias e dispositivos, como redes sociais, Web 2.0 e dispositivos móveis. É extremamente popular entre estudantes e profissionais da área, e uma fonte de pesquisa ideal para aprender as habilidades interdisciplinares necessárias para design de interação, interação humano-computador, design de informação, web design e computação ubíqua.",
+    "year": 2013,
     "pages": 597,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "Páginas Faltando",
+    "images": [
+      "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "eROWAwAAQBAJ",
+    "id": 13,
     "title": "Programação Java para a Web",
-    "authors": [
-      "Décio Heinzelmann Luckow",
-      "Alexandre Altair de Melo"
-    ],
+    "author": "Décio Heinzelmann Luckow e Alexandre Altair de Melo",
     "publisher": "Novatec Editora",
-    "year": "2010-09-23",
     "description": "(*) O livro utiliza as versões JSF 2 e Hibernate 3.5 no desenvolvimento dos projetos. Programação Java para a Web é um livro inovador, com enfoque extremamente prático, que mostra passo a passo como desenvolver uma aplicação web utilizando a linguagem Java e as tecnologias mais poderosas e populares no arsenal dos desenvolvedores, como JavaServer Faces e Hibernate. A metodologia do aprendizado é baseada no projeto de uma aplicação financeira pessoal completa, do início ao fim, em que serão abordadas várias técnicas de desenvolvimento em cada etapa do projeto, desde as mais tradicionais e conhecidas até as mais modernas, utilizando Web 2.0. Tudo isso sem abrir mão de uma arquitetura bem-definida e baseada no modelo MVC. O conteúdo deste livro inclui desde a preparação do ambiente de desenvolvimento, com Tomcat, MySQL e Eclipse, até a entrega do sistema completo final, funcional e fácil de entender, que poderá ser adaptado às suas necessidades. Aborda os requisitos básicos de um sistema construído de forma profissional, como criação de interfaces web, gravação em banco de dados, segurança, internacionalização, geração de gráficos, relatórios em PDF, web services e busca de informações em meios externos. A obra destina-se tanto a iniciantes no desenvolvimento de sistemas na plataforma Java quanto a programadores experientes que desejam conhecer as técnicas e ferramentas mais atuais e poderosas utilizadas pela comunidade de desenvolvedores Java. As soluções apresentadas nesta obra podem ser utilizadas na construção de outros sistemas. O livro aborda os seguintes assuntos: - Desenvolvimento Web usando JavaServer Faces com Ajax - Gravação e consulta em banco de dados usando Hibernate - Segurança de acesso e controle de usuários com Spring Security - Estilos com CSS e uso de templates - Envio de e-mail e integração com o Google Gmail - Construção de relatórios com iReports e JasperReports - Integração com o Yahoo! Finance para obtenção de gráficos e cotação de ações da Bovespa - Como tornar sua aplicação multi-idiomas - Modelagem e uso de web services - Geração de gráficos",
+    "year": 2010,
     "pages": 640,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=eROWAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=eROWAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Desgastado",
+    "images": [
+      "http://books.google.com/books/content?id=eROWAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=eROWAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "qt6RDwAAQBAJ",
+    "id": 14,
     "title": "Mineração de Dados da Web Social",
-    "authors": [
-      "Matthew A. Russell"
-    ],
+    "author": "Matthew A. Russell",
     "publisher": "Novatec Editora",
-    "year": "2019-04-11",
     "description": "O Facebook, o Twitter e o LinkedIn geram uma quantidade tremenda de dados sociais muito valiosos, mas como descobrir quem está se conectando às mídias sociais, sobre o que essas pessoas estão conversando, ou onde se encontram? Este conciso e prático livro mostra como responder a essas questões e muito mais. Você aprenderá a combinar dados da web social, técnicas de análise e de visualizações para encontrar o que procura, além de outras informações úteis que você nem sabia que existiam. Cada capítulo independente introduz técnicas para mineração de dados em diferentes áreas da web social, incluindo blogs e e-mails. Para iniciar, basta um pouco de experiência em programação e a disponibilidade para aprender a respeito de algumas ferramentas Python básicas. •Obtenha um resumo prático do panorama da web social. •Utilize scripts adaptáveis no GitHub para coletar dados de APIs de redes sociais como o Twitter, o Facebook e o LinkedIn. •Aprenda a empregar ferramentas Python de fácil utilização para decompor e analisar os dados coletados. •Explore conexões sociais em microformatos com o XHTML Friends Network. •Aplique técnicas avançadas de mineração como TF-IDF, similaridade de cosseno, análise de colocação, resumo automático de documentos e detecção de conjuntos ou cliques. •Construa visualizações interativas com tecnologias web baseadas em bibliotecas HTML5 e JavaScript.",
+    "year": 2019,
     "pages": 360,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "Novo",
+    "images": [
+      "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "iZUXAwAAQBAJ",
+    "id": 15,
     "title": "Lean UX",
-    "authors": [
-      "Jeff Gothelf",
-      "Josh Seiden"
-    ],
-    "publisher": "\"O'Reilly Media, Inc.\"",
-    "year": "2013-02-22",
+    "author": "Jeff Gothelf e Josh Seiden",
+    "publisher": "O'Reilly Media, Inc.",
     "description": "The Lean UX approach to interaction design is tailor-made for today’s web-driven reality. In this insightful book, leading advocate Jeff Gothelf teaches you valuable Lean UX principles, tactics, and techniques from the ground up—how to rapidly experiment with design ideas, validate them with real users, and continually adjust your design based on what you learn. Inspired by Lean and Agile development theories, Lean UX lets you focus on the actual experience being designed, rather than deliverables. This book shows you how to collaborate closely with other members of the product team, and gather feedback early and often. You’ll learn how to drive the design in short, iterative cycles to assess what works best for the business and the user. Lean UX shows you how to make this change—for the better. Frame a vision of the problem you’re solving and focus your team on the right outcomes Bring the designers’ toolkit to the rest of your product team Share your insights with your team much earlier in the process Create Minimum Viable Products to determine which ideas are valid Incorporate the voice of the customer throughout the project cycle Make your team more productive: combine Lean UX with Agile’s Scrum framework Understand the organizational shifts necessary to integrate Lean UX Lean UX received the 2013 Jolt Award from Dr. Dobb's Journal as the best book of the year. The publication's panel of judges chose five notable books, published during a 12-month period ending June 30, that every serious programmer should read.",
+    "year": 2013,
     "pages": 152,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "ttE9ywAACAAJ",
+    "id": 16,
     "title": "Análise e avaliação de técnicas de interação humano-computador para sistemas de recuperação de imagens por conteúdo baseadas em um estudo de caso",
-    "authors": [
-      "Ana Lúcia FILARDI"
-    ],
-    "year": "2007",
+    "author": "Ana Lúcia FILARDI",
     "description": "Técnicas CBIR, caracterização das imagens; atributos das imagens; sistema CBIR, técnicas interação homem-computador; inspeção de usabilidade; percurso cognitivo; avaliação heurística; revisão de guidelines; modelos preditivos; uso de trabalho prévio, testes de usabilidade; técnicas experimentais; técnicas observacionais, técnicas de questionamento; técnicas interpretativas; técnicas de monitoração; comparação dos métodos; Sistema CBIR aplicado à medicina; protópico MRI Browser; avaliação da interface; inspeção heurística; técnica observacional, medidas de usabilidade, critérios de medida, observação do usuário.",
+    "year": 2007,
     "pages": 131,
     "language": "pt",
-    "image": {}
+    "owner": 3,
+    "situation": "",
+    "images": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
   },
   {
-    "id": "GiXWHAAACAAJ",
-    "title": "Desenvolvimento de um rastreador de olhar apropriado para interação humano computador",
-    "authors": [
-      "Marcio Raul Medeiros Mimica"
-    ],
-    "year": "2004",
-    "description": "O rastreamento de olhar e a estimativa de sua direção criam um novo canal de comunicação entre o usuário e o computador. Essa tecnologia permit5e formas alternativas de interação que usariam esse canal com a finalidade de tornar a interação humano-computador mais eficiente. O atual estado da tecnologia já beneficia pessoas com problemas motores, como tetraplégicos, porém ainda existem certas limitações que impedem a disseminação de seu uso pela grande massa de usuários de computadores. Este trabalho apresenta uma síntese da literatura sobre as atuais tecnologias de rastreamento do olhar e discute algumas técnicas de interação baseadas em rastreadores de olhar que foram propostas como alternativas das interfaces hoje existentes. Utilizando o método de rastreamento de pupila e reflexão da córnea, implementamos vários algoritmos de visão cxomputacional para a construção de um sistema remoto de rastreamento de olhar. Esse sistema apresenta um desempenho semelhante ao de sistemas comerciais existentes, porém com um custo reduzido. Seu código foi desenvolvido em uma plataforma Linux e será disponibilizado como software livre em breve, para que outros laboratórios possam também usufruir dessa tecnologia. A função de calibração utilizada nesse sistema é avaliada através do uso de um conjunto de imagens geradas sinteticamente através de um algoritmo de tracejamento de raios (ray tracing), usando o modelo de olho de Gullstrand. O resultado d.",
-    "pages": 72,
-    "language": "pt",
-    "image": {}
-  },
-  {
-    "id": "4R0NtdbanpIC",
+    "id": 17,
     "title": "Curso essencial de lógica de programação",
-    "authors": [
-      "Marilane Almeida"
-    ],
+    "author": "Marilane Almeida",
     "publisher": "Universo dos Livros Editora",
     "description": "A lógica de programação tem como objetivo principal definir, de forma lógica, os métodos para solucionar um determinado problema. Dessa forma, ela fornece uma base de raciocínio fundamental para qualquer profissional que deseja atuar na área de programação de softwares. Este livro é composto por toda a teoria relacionada à Lógica de Programação para que o leitor, em seguida, acompanhe todos os exercícios práticos que são desenvolvidos ao final de cada capítulo. Seu conteúdo inclui: - Conceitos relacionados à lógica de programação - Algoritmos: entrada, processamento, saída, formas de representação - Tipos de dados, constantes, variáveis e atribuição de valores - Expressões e operadores aritméticos, relacionais e lógicos - Estruturas de seqüência, decisão e repetição - Manipulação de arquivos de dados - Modularização - Funções - Passagem de parâmetros - Exercícios resolvidos",
+    "year": 2004,
+    "pages": 72,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "Páginas Faltando",
+    "images": [
+      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "LYdiDwAAQBAJ",
+    "id": 18,
     "title": "Algoritmos e Lógica de Programação em C  Uma Abordagem Didática",
-    "authors": [
-      "Silvio Do Lago Pereira"
-    ],
+    "author": "Silvio Do Lago Pereira",
     "publisher": "Saraiva Educação S.A.",
-    "year": "2018-06-12",
     "description": "Especialista na área, professor universitário, mestre e doutor em Ciência da Computação, o autor desenvolveu esta publicação visando uma abordagem mais didática, usando o fluxograma como ferramenta básica para a introdução dos conceitos de sequência, seleção e repetição. Destaca algoritmo computacional, as técnicas para projeto de algoritmos estruturados, comandos para implementação de algoritmos em C, manipulação de dados em C, conceitos essenciais de programação, macros e funções, strings e matrizes. Traz exemplos de aplicação codificados em linguagem C - padrão ISO C99 - que podem ser executados em Windows, usando o compilador gratuito Pelles C, ou em Unix/Linux, usando os compiladores CC e GCC e exercícios para fixação dos assuntos estudados. É útil a estudantes e programadores em geral.",
+    "year": 2018,
+    "pages": 99,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=LYdiDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=LYdiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Páginas Faltando",
+    "images": [
+      "http://books.google.com/books/content?id=LYdiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=LYdiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "5KqoHjeEKkkC",
+    "id": 19,
     "title": "The UX Book",
-    "authors": [
-      "Rex Hartson",
-      "Pardha S. Pyla"
-    ],
+    "author": "Rex Hartson e Pardha S. Pyla",
     "publisher": "Elsevier",
-    "year": "2012",
     "description": "This is a comprehensive textbook on designing interaction to ensure a quality user experience. Combining breadth, depth, and practical applications, this book takes a time-tested process-and-guidelines approach that provides readers with actionable methods and techniques while retaining a firm grounding in HCI concepts and theory. The authors will guide you through the UX lifecycle process, including contextual inquiry and analysis, requirements extraction, design ideation and creation, practical design production, prototyping, and UX evaluation. Development activities are linked via handoffs between stages as practitioners move through the process. The lifecycle template concept introduced in this book can be tailored to any project environment, from large enterprise system development to commercial products. Students and practitioners alike will come away with knowledge and understanding of how to create and refine interaction designs to ensure a quality user experience. For more information see theuxbook.com *A very broad approach to user experience through its components-usability, usefulness, and emotional impact with special attention to lightweight methods such as rapid UX evaluation techniques and an agile UX development process *Universal applicability of processes, principles, and guidelines-not just for GUIs and the Web, but for all kinds of interaction and devices: embodied interaction, mobile devices, ATMs, refrigerators, and elevator controls, and even highway signage *Extensive design guidelines applied in the context of the various kinds of affordances necessary to support all aspects of interaction *Real-world stories and contributions from accomplished UX practitioners *A practical guide to best practices and established principles in UX *A lifecycle template that can be instantiated and tailored to a given project, for a given type of system development, on a given budget.",
+    "year": 2012,
     "pages": 937,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "keDdDwAAQBAJ",
+    "id": 20,
     "title": "React Native",
-    "authors": [
-      "Bruna Escudelario",
-      "Diego Pinho"
-    ],
+    "author": "Bruna Escudelario e Diego Pinho",
     "publisher": "Casa do Código",
-    "year": "2020-04-17",
     "description": "O React Native é um framework desenvolvido pelo Facebook e baseado na biblioteca React. Ele consiste em uma série de ferramentas que viabilizam a criação de aplicações mobile nativas — para as plataformas iOS e Android — utilizando por debaixo dos panos as tecnologias básicas do front-end: HTML, CSS e JavaScript. Ao contrário de outros frameworks semelhantes, o React Native converte todo o código desenvolvido para a linguagem nativa do sistema operacional do seu aparelho, ou seja, podemos criar somente um código e ele rodará em qualquer sistema operacional. Neste livro, Bruna Escudelario e Diego Pinho vão desde os primeiros passos com React Native até o desenvolvimento de aplicações que consomem serviços na internet (APIs). No meio desde percurso, você vai aproveitar e estudar o funcionamento da biblioteca React para web, afinal, todos os conceitos trabalhados nela também são usados aqui. Você verá o que é o JSX, o que é um e como criar um componente das mais diversas formas, quais são as principais dependências, o que são propriedades e estados, estilos por meio do Flexbox e CSS, navegação de telas, quais são as principais funções do ciclo de vida de um componente, como passar informações de um componente para outro, consumir serviços da internet e atualizar os componentes com as respostas, até chegar à última grande novidade do React 16, os Hooks. Este livro foi estruturado de modo que os tópicos se complementem e se tornem gradativamente mais complexos ao decorrer da leitura, mas sempre apoiados por códigos contextualizados em casos de usos reais, seguindo as boas práticas adotadas pelo mercado e pela comunidade desenvolvedora.",
+    "year": 2020,
     "pages": 205,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "ol2pBAAAQBAJ",
+    "id": 21,
     "title": "Act Or React",
-    "authors": [
-      "Caz McCaslin"
-    ],
+    "author": "Caz McCaslin",
     "publisher": "B&H Publishing Group",
-    "year": "2014-07-01",
     "description": "Have you ever been moved to act? Have you ever taken a leap of faith, unsure where you would land? Maybe you weren’t completely ready to quit your job and go out on your own. Maybe you didn’t know how your co-workers would respond when you told them you were going to Uganda on a two-week mission trip. We have all stepped out on faith one time or another, in both big and small ways. But have you ever wondered why? What causes us to speak up when there is silence, what makes us finally put the for-sale sign in our front yard? What if we could pinpoint that moment in time, and figure out what moves people to act? Act or React will take us on a journey of discovery to find out how we go from standing on the sidelines to actually getting inthe game of life and playing with purpose. Author Caz McCaslin, founder and president of Upward Sports, shares his own story to help readers examine the ongoing process which moves us from thinking about doing something to actually doing something. Concepts like Awareness, Passion, Vision, Readiness, and Intentionality, will bring to light what we have to do to live others-focused. Do we react? Do we act? Or do we do both?",
+    "year": 2014,
     "pages": 208,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=ol2pBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=ol2pBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=ol2pBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "FhUi2tLJD0AC",
+    "id": 22,
     "title": "User Experience Design",
     "publisher": "Smashing Magazine",
-    "year": "2012",
     "description": "User Experience (UX) can be strongly influenced by behavioral factors such as emotions, beliefs, preferences and even cultural backgrounds. Being aware of this, Web designers keep developing strategies to improve the overall UX with the help of storytelling, tools for problem solving, relationship engineering and costumer service improvement. This Smashing eBook User Experience Design provides you with insights on how to improve your website based on the most important UX principles. TABLE OF CONTENTS - Why User Experience Cannot Be Designed - Design Is About Solving Problems - A Design Is Only As Deep As It Is Usable - Designing The Well Tempered Web - Better User Experience With Storytelling Part 1 - Better User Experience With Storytelling Part 2 - Relationship Engineering Part 1 - Relationship Engineering Part 2 - Taking A Customer From Like To Love: The UX Of Long Term Relationships - Idiots, Drama Queens And Scammers: Improving Customer Service with UX",
+    "year": 2012,
+    "pages": 99,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=FhUi2tLJD0AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=FhUi2tLJD0AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Novo",
+    "images": [
+      "http://books.google.com/books/content?id=FhUi2tLJD0AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=FhUi2tLJD0AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "F4kmAeDBScEC",
+    "id": 23,
     "title": "Ergonomia e usabilidade",
-    "authors": [
-      "Walter de Abreu Cybis",
-      "Adriana Holtz Betiol",
-      "Richard Faust"
-    ],
+    "author": "Walter de Abreu Cybis, Adriana Holtz Betiol e Richard Faust",
     "publisher": "Novatec Editora",
-    "year": "2007",
     "description": "O livro 'Ergonomia e Usabilidade - Conhecimentos, Métodos e Aplicações' traz os principais conceitos que permitem a aplicação da usabilidade e da ergonomia no desenvolvimento de Interfaces Humano-Computador, conscientizando o leitor sobre a necessidade de considerar capacidades e limitações dos usuários do sistema informatizado. Além disso, apresenta maneiras de adequar perfeitamente este sistema às estratégias dos usuários, proporcionando-lhes a realização de tarefas de modo mais eficaz, eficiente e agradável. Com métodos e informações de fácil compreensão, é a melhor opção para web designers, programadores, arquitetos, projetistas, analistas, universitários, professores e pesquisadores da área. Principais tópicos abordados no livro - Critérios e recomendações ergonômicas; Técnicas de concepção, análise e avaliação de Interfaces Humano-Computador; Conhecimentos de engenharia de usabilidade aplicados ao desenvolvimento de interfaces para computadores de mão e para TV digital; Modelos e teorias cognitivas que fundamentam critérios e recomendações ergonômicas.",
+    "year": 2007,
     "pages": 344,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=F4kmAeDBScEC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=F4kmAeDBScEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=F4kmAeDBScEC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "http://books.google.com/books/content?id=F4kmAeDBScEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    ]
   },
   {
-    "id": "UDW1AAAACAAJ",
-    "title": "Lógica de programação",
-    "authors": [
-      "André Luiz Villar Forbellone",
-      "Henri Frederico Eberspãcher"
-    ],
-    "year": "2000",
-    "pages": 197,
-    "language": "en",
-    "image": {}
-  },
-  {
-    "id": "O2-kAgAAQBAJ",
+    "id": 24,
     "title": "Introdução A Lógica De Programação",
-    "authors": [
-      "Carlos Isaias Dos Santos Junior"
-    ],
+    "author": "Carlos Isaias Dos Santos Junior",
     "publisher": "Clube de Autores",
     "description": "Lógica de Programação é o raciocínio lógico empregado no desenvolvimento de programas de computador, fazendo uso ordenado dos elementos básicos suportados por um dado estilo de programação. Neste livro o leitor aprenderá os métodos para melhor aplicar a lógica de programação no desenvolvimento de programas, independentemente da linguagem de programação.",
+    "year": 2004,
     "pages": 57,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    ]
   },
   {
-    "id": "gXfFAQAAQBAJ",
+    "id": 25,
     "title": "BIBLIONLINE 2012 Ed. Esp.",
-    "authors": [
-      "Patrícia Silva",
-      "Wagner Junqueira de Araújo"
-    ],
+    "author": "Patrícia Silva e Wagner Junqueira de Araújo",
     "publisher": "UFPB-CSSA-DCI",
+    "year": 2004,
+    "pages": 57,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "Páginas Faltando",
+    "images": [
+      "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "QSB0RQAACAAJ",
-    "title": "IHC E A ENGENHARIA PEDAGOGICA",
-    "authors": [
-      "ALVIM ANTONIO OLIVEIRA NETTO"
-    ],
-    "description": "O surgimento de novas tecnologias coloca em pauta o problema do ensino-aprendizagem e da interação do homem-máquina. O questionamento científico e filosófico sacode as teorias do conhecimento e a visão do mundo. As ciências cognitivas formulam teorias sobre os processos de interação e ensino visando o desenvolvimento de uma engenharia pedagógica que possa mediar este problema. Para entender a revolução que a tecnologia introduziu em nosso cotidiano, é fundamental o conhecimento da filosofia, da didática, da psicologia cognitiva, da engenharia pedagógica e das técnicas de interação. O objetivo desta obra é propiciar ao leitor uma reflexão sobre os processos de interação homem-máquina e as relações entre ensino-aprendizagem. Os textos do livro partem de vários referênciais sobre ensino, aprendizado e interação, propondo uma abordagem numa perspectiva epistemológica mais ampla sem ficar restrita a questão técnica.",
-    "pages": 216,
-    "language": "pt",
-    "image": {}
-  },
-  {
-    "id": "Y66BI-D0wMsC",
+    "id": 26,
     "title": "Think, Act, Stay Safe with the R.E.A.C.T Approach to Self Defence",
-    "authors": [
-      "Stephen W. Collins"
-    ],
+    "author": "Stephen W. Collins",
     "publisher": "Steve Collins",
-    "year": "2001",
     "description": "As the newspapers and television constantly remind us, violent crime is on the increase, violence that can strike at you anywhere and at any time - on holiday, at work, on nights' out or during any one of a thousand everyday situations. But even if you are confronted by the unthinkable, you don't have to become a victim. This important new book shows you how you can protect yourself regardless of your age, sex or level of fitness by using the simple but effective REACT formula: R: Recognise E: Evaluate A: Alternatives C: Concentrate T: Terminate Using clear and concise step-by-step instructions, reinforced with many illustrations and diagrams, each of these five basic principles is expanded and explained in such a way that they quickly become 'second nature'. Following this sequence in any circumstance will allow you to recognise potential threats, decide on the best form of action to take and equip you carry to this through. While The R.E.A.C.T. Self defence System does concentrate on a dozen or so straightforward but effective self-protection combat techniques, it is not just another self-defence book, full of impractical or ineffective martial arts routines. What it does is heig",
+    "year": 2001,
     "pages": 160,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Páginas Faltando",
+    "images": [
+      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "f_zTEGBv2uAC",
+    "id": 27,
     "title": "How NGOs React",
-    "authors": [
-      "Iveta Silova",
-      "Gita Steiner-Khamsi"
-    ],
+    "author": "Iveta Silova e Gita Steiner-Khamsi",
     "publisher": "Kumarian Press",
-    "year": "2008",
     "description": "* Critical retrospective on the first decades of the transition from planned to free-market economy in Central Asia * Contributions from both Eastern and Western scholars * Includes both theoretical NGO research and practical examples taken from experience During the important, early years of transition for the post-socialist countries in the Caucasus, Central Asia, and Mongolia, the Open Society Institute/Soros Foundation was arguably the largest and most influential network in the region. How NGOs React follows the Soros Foundation's educational reform programs there and raises larger questions about the role of NGOs in a centralist government, relationships NGOs have with international donors and development banks, and how projects are adopted and interpreted in different contexts. Case studies (authored by former or current educational experts of the Soros Network based in Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Mongolia, Tajikistan, Turkmenistan, and Uzbekistan) look at the impact of capacity-building programs, the professional development of teachers, school administrators, government officials, textbook authors, publishers, teacher educators, and university lecturers, among others. Soros's particular focus on capacity-building and how this strategy was adopted across a wide area reveals much that will instruct NGOs working in international education policy. The unique combination of perspectives from Western as well as Eastern scholars based in the region makes this collection an essential retrospective on key processes involved in the transformation of closed societies into open and free ones.",
+    "year": 2008,
     "pages": 303,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "Desgastado",
+    "images": [
+      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "AOa5CgAAQBAJ",
+    "id": 28,
     "title": "Ergonomia e Usabilidade 3ª edição",
-    "authors": [
-      "Walter de Abreu Cybis ",
-      "Adriana Holtz Betiol",
-      "Richard Faust"
-    ],
+    "author": "Walter de Abreu Cybis, Adriana Holtz Betiol e Richard Faust",
     "publisher": "Novatec Editora",
-    "year": "2015-10-15",
     "description": "O livro Ergonomia e Usabilidade – Conhecimentos, Métodos e Aplicações aborda a aplicação da ergonomia no desenvolvimento de interfaces humano-computador que possam proporcionar usabilidade e marcar positivamente a experiência de seus usuários. Ele apresenta formas de adequar sites, aplicações e dispositivos interativos aos perfis e às estratégias de seus usuários e de satisfazer as suas expectativas em um contexto tecnológico em constante evolução. Expondo de maneira didática conteúdos selecionados a partir da experiência de consultoria, ensino e pesquisa de seus autores, este livro é uma opção abrangente e de qualidade para analistas, arquitetos de informação, projetistas de interfaces, web designers, programadores, estudantes, professores e pesquisadores da área. Principais tópicos abordados no livro: • Critérios, recomendações e padrões de projeto ergonômicos. • Abordagens para a concepção centrada no usuário e técnicas de análise, especificação, concepção, avaliação, testes e monitoramento de interfaces humano-computador. • Interfaces para sistemas especiais (dispositivos móveis, jogos e sistemas corporativos) e para usuários especiais (acessibilidade). • Conhecimentos sobre a experiência do usuário e sobre as teorias cognitivas que fundamentam os critérios, as recomendações e os padrões de projeto ergonômicos.",
+    "year": 2015,
     "pages": 496,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Desgastado",
+    "images": [
+      "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "qk0skwr_cewC",
+    "id": 29,
     "title": "Interação Humano-Computador",
-    "authors": [
-      "Simone Barbosa",
-      "Bruno Silva"
-    ],
+    "author": "Simone Barbosa e Bruno Silva",
     "publisher": "Elsevier Brasil",
-    "year": "2010-08-05",
     "description": "Este livro visa fornecer aos leitores um conhecimento abrangente sobre práticas de projeto e avaliação de sistemas interativos de alta qualidade. Inicialmente são apresentados os principais conceitos da área de Interação Humano-Computador (IHC). Em seguida, são apresentadas atividades envolvidas em design e avaliação de interfaces de usuário, incluindo métodos, técnicas, modelos e representações utilizados em cada uma delas. Cada capítulo inclui modelos de relatórios, diagramas e outros artefatos produzidos pelas atividades nele descritas. Cada método apresentado é aplicado através de exemplos e exercícios relacionados em diversos ambientes (PC, Web, celulares, entre outros). O leitor será capaz de aplicar os métodos de design e de avaliação de interfaces de usuário em seus projetos, introduzindo atividades relacionadas a IHC nos processos de desenvolvimento de software de que participe, para aumentar a qualidade do produto gerado.",
+    "year": 2010,
     "pages": 408,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Páginas Faltando",
+    "images": [
+      "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "vWuCCwAAQBAJ",
+    "id": 30,
     "title": "Introdução e boas práticas em UX Design",
-    "authors": [
-      "Fabricio Teixeira"
-    ],
+    "author": "Fabricio Teixeira",
     "publisher": "Editora Casa do Código",
-    "year": "2014-06-13",
     "description": "Cada vez mais o desenvolvimento do front-end de sites e sistemas tem papel preponderante em como o seu site converte, retém e agrada os usuários. Porém, além de saber como implementar uma tela, é importante saber também o que fazer nela. Quais recursos devem ser usados? Quais informações precisam ser exibidas? Em quais lugares? Atualmente, a experiência do usuário (User Experience - UX) tem ganhado um papel fundamental na criação de sites e aplicativos. Entender como o usuário se comportará no seu sistema é de extremo valor para criar um site simples para ele. Neste livro, Fabricio Teixeira mostra com exemplos práticos e reais de sucesso e insucesso de diferentes sites quais são as boas práticas e os pilares para conseguir construir um de uso agradável.",
+    "year": 2014,
     "pages": 263,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=vWuCCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=vWuCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=vWuCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=vWuCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "LMS4DwAAQBAJ",
+    "id": 31,
     "title": "Redação Estratégica para UX",
-    "authors": [
-      "Torrey Podmajersky"
-    ],
+    "author": "Torrey Podmajersky",
     "publisher": "Novatec Editora",
-    "year": "2019-10-28",
     "description": "Quando uma organização depende de seres humanos comportando-se de maneira específica – comprando ingressos, jogando ou usando o transporte público –, as palavras bem colocadas são mais eficientes. Como escolher as melhores palavras? E como saber se vão funcionar? Com este livro prático, você vai aprender como redigir de forma estratégica para UX usando ferramentas para construir os alicerces do texto das interfaces com os usuários e a estratégia de voz da marca para UX. A estrategista de conteúdo UX Torrey Podmajersky discute estratégias para conversão, engajamento e suporte aos usuários, além de maneiras de fazê-los retornar à experiência. Você vai usar frameworks e padrões para conteúdo, métodos para avaliar sua eficiência e processos para criar a colaboração necessária ao sucesso. Também vai estruturar toda a voz da marca de modo que a marca seja facilmente reconhecida por seu público. •Aprenda como funciona o conteúdo UX ao longo do ciclo de vida de desenvolvimento de software. •Use um framework para alinhar o conteúdo UX aos princípios do produto. •Explore o design focado no conteúdo para basear o texto UX no diálogo. •Aprenda como os padrões de texto UX funcionam em diferentes vozes. •Escreva um texto significativo, conciso, dialógico e claro.",
+    "year": 2019,
     "pages": 184,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "Desgastado",
+    "images": [
+      "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "mj-eAgAAQBAJ",
+    "id": 32,
     "title": "Time to React",
-    "authors": [
-      "Heidi Hardt"
-    ],
+    "author": "Heidi Hardt",
     "publisher": "Oxford University Press",
-    "year": "2014-01-03",
     "description": "In conflict-affected regions, delays in international response can have life or death consequences. The speed with which international organizations react to crises affects the prospects for communities to re-establish peace. Why then do some international organizations take longer than others to answer calls for intervention? To answer this question and explore options for reform, Time to React builds on contemporary scholarship with original data on response rates and interview evidence from 50 ambassadors across four leading organizations (AU, EU, OAS and OSCE). The explanation for variation in speed ultimately lies in core differences in institutional cultures across organizations. Although wealth and capabilities can strengthen a peace operation, it is the unspoken rules and social networks of peace and security committees at these organizations that dictate the pace with which an operation is established. This book offers a first analysis of the critical importance of and conditions shaping timeliness of crisis response by international organizations.",
+    "year": 2014,
     "pages": 272,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "RRLmDwAAQBAJ",
+    "id": 33,
     "title": "The Road to React",
-    "authors": [
-      "Robin Wieruch"
-    ],
+    "author": "Robin Wieruch",
     "publisher": "Robin Wieruch",
-    "year": "2017-11-15",
     "description": "LAST UPDATE: 11. March 2020 If you are looking for a comprehensive and pragmatic yet concise and up-to-date React.js feat. Hooks book, the Road to React is for you. What you will learn. In \"The Road to React\" you will learn about all the fundamentals of React.js with Hooks while building a full-blown React application step by step. While you create the React application, every chapter will introduce you to a new React key feature. However, there is more than only the fundamentals: The book dives into related topics (e.g. React with TypeScript, Testing, Performance Optimizations) and advanced feature implementations like client- and server-side searching. At the end of the book, you will have a fully working deployed React application. Is it up to date? Programming books are usually outdated soon after their release, but since this book is self- published, I can update it as needed whenever a new version of something related to this book gets released. I am a beginner. Is this book for me? Yes. The book starts from zero and takes you through the learning experience step by step. Every chapter builds up on the learnings from the previous chapter. In addition, at the end of every chapter, exercises fortify your lessons learned. If you got stuck in a chapter, you will always find a reference URL to the status quo of the actual code. Core Concepts Pragmatic: Master React while building a complete application step by step. Problems Solving: You need to experience a problem first before solving it. The Why: Readers like how the book answers the Why, not only the How. Table of Contents Fundamentals of React Hello React Requirements Setting up a React Project Meet the React Component React JSX Lists in React Meet another React Component React Component Instantiation ReactDOM React Component Definition (Advanced) Handler Function in JSX React Props React State Callback Handlers in JSX Lifting State in React React Controlled Components Props Handling (Advanced) React Side-Effects React Custom Hooks (Advanced) React Fragments Reusable React Component React Component Composition Imperative React Inline Handler in JSX React Asynchronous Data React Conditional Rendering React Advanced State React Impossible States Data Fetching with React Data Re-Fetching in React Memoized Handler in React (Advanced) Explicit Data Fetching with React Third-Party Libraries in React Async/Await in React (Advanced) Forms in React React's Legacy React Class Components React Class Components: State Imperative React Styling in React CSS in React CSS Modules in React Styled Components in React SVGs in React React Maintenance Performance in React (Advanced) TypeScript in React Unit Testing to Integration Testing React Project Structure Real World React (Advanced) Sorting Reverse Sort Remember Last Searches Paginated Fetch Deploying a React Application Build Process Deploy to Firebase",
+    "year": 2017,
     "pages": 223,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "S6GeDwAAQBAJ",
+    "id": 34,
     "title": "UX Design",
-    "authors": [
-      "Will Grant"
-    ],
+    "author": "Will Grant",
     "publisher": "Novatec Editora",
-    "year": "2019-06-27",
     "description": "Queremos que nossa UX seja genial. Queremos criar ótimas experiências de usuário. Queremos que a UX conduza o sucesso de nosso negócio com produtos de software proveitosos e usáveis. Este livro é baseado no conhecimento e treinamento de Jakob Nielsen e Don Norman para nos ajudar a construir corretamente nossa UX – de 101 formas! UX Design mostra as 101 práticas mais importantes que você precisa saber sobre usabilidade e design. É uma referência prática para profissionais de UX e um atalho para a realização de qualquer pessoa que precise de uma seleção clara e inteligente de princípios para guiar seu sucesso na área de UX. Aprenda os princípios-chave que conduzem a um design de UX genial. Conheça as melhores práticas, entre elas 'Uma boa UX tem começo, meio e fim', 'Faça seus links parecerem links', 'Não use ícones obsoletos', 'Decida se uma interação deve ser óbvia, fácil ou possível', 'Teste com usuários reais', 'Aproveitando ao máximo as fontes', 'Uma boa UX para resultados de pesquisa' e 'Mostre ao usuário – em vez de falar para ele'!",
+    "year": 2019,
     "pages": 208,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "Desgastado",
+    "images": [
+      "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "P61EXwAACAAJ",
-    "title": "INTERAÇAO HUMANO-COMPUTADOR",
-    "authors": [
-      "DAVID BENYON"
-    ],
-    "description": "Este livro busca apresentar diversas interfaces de tecnologia, tais como - realidade mista, computação ubíqua e móvel, agentes e avatares. A obra traz ainda exercícios e desafios para testar o conhecimento aprendido.",
-    "pages": 464,
-    "language": "pt",
-    "image": {}
-  },
-  {
-    "id": "mXPFAQAAQBAJ",
+    "id": 35,
     "title": "BIBLIONLINE 2011 V7 N1",
-    "authors": [
-      "Patricia Silva",
-      "Wagner Junqueira de Araújo"
-    ],
+    "author": "Patricia Silva e Wagner Junqueira de Araújo",
     "publisher": "UFPB-CSSA-DCI",
+    "year": 2017,
+    "pages": 99,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "6u3k1u0hEnoC",
+    "id": 36,
     "title": "HP-UX Virtual Partitions",
-    "authors": [
-      "Marty Poniatowski"
-    ],
+    "author": "Marty Poniatowski",
     "publisher": "Prentice Hall Professional",
-    "year": "2002",
     "description": "This book provides essential information on setup and use of vPars on HP-UX. This is both a system administration and user book.",
+    "year": 2002,
     "pages": 1012,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=6u3k1u0hEnoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=6u3k1u0hEnoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "Novo",
+    "images": [
+      "http://books.google.com/books/content?id=6u3k1u0hEnoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=6u3k1u0hEnoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "CyI6DwAAQBAJ",
+    "id": 37,
     "title": "Princípios de lógica de programação",
-    "authors": [
-      "Glauber Roberto Paschoalini"
-    ],
+    "author": "Glauber Roberto Paschoalini",
     "publisher": "SESI SENAI Editora",
-    "year": "2017-10-16",
     "description": "Com linguagem simples, este livro aborda os fundamentos e a lógica de programação por meio de fluxogramas e pseudocódigos, feitos em português estruturado, com intuito de auxiliar na interpretação de um processo real e ser possível representa-lo num programa de computador. Ensina a extrair os dados de entrada, determinar quanto de memória cada dado vai ocupar definindo seu tipo, as ações necessárias para transformá-los em informações através de decisões e repetições, determinar quais informações serão produzidas neste processamento, além de explicar como utilizar variáveis, vetores, matrizes, estruturas, funções, strings e manipulação de arquivos. Destina-se a estudantes de cursos que possuem linguagem de programação em seu currículo, sejam cursos de aprendizagem industrial, formação inicial e continuada, técnico ou graduação.",
+    "year": 2017,
     "pages": 160,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "0RUlaBWtFdUC",
+    "id": 38,
     "title": "HP-UX 11i Systems Administration Handbook and Toolkit",
-    "authors": [
-      "Marty Poniatowski"
-    ],
+    "author": "Marty Poniatowski",
     "publisher": "Prentice Hall Professional",
-    "year": "2003",
     "description": "HP-UX 11i System Administration Handbook and Toolkit, second edition, is your singlesource for everything HP-UX administrators need to know! Now updated to cover new HP-UX 11i andpartitioning enhancements, plus every essential UNIX command. Covers installation, boot, kernel,devices, users, groups, SAM, Veritas VM, LVM, optimization, networking, GNOME, auditing, UNIXfile types and commands, vi, and shell programming. Includes extensive new disk partitioningcoverage: vPars, PRM, nPartitions, and MC/ServiceGuard. CD-ROM: new HP-UX performance managementtrialware, sysadmin \"Cheat Sheets,\" and more.",
+    "year": 2003,
     "pages": 1390,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=0RUlaBWtFdUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=0RUlaBWtFdUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "Novo",
+    "images": [
+      "http://books.google.com/books/content?id=0RUlaBWtFdUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "5bnbGOsuUuYC",
+    "id": 39,
     "title": "The Must-React System",
-    "authors": [
-      "Kraig Kleeman"
-    ],
+    "author": "Kraig Kleeman",
     "publisher": "iUniverse",
-    "year": "2008-09",
     "description": "Every company that wants to continue growth needs their sales team to be proficient in finding and closing net-new opportunities. But, unfortunately, most sales persons are not good at gaining new business, much less performing even the most basic prospecting practices. There are a multitude of reasons for this phenomenon. But the biggest reason is that sales professionals are untrained in vital cold-calling techniques. Especially in the realm of cold-calling and prospecting. Further, there is a culture of sales resistance that exists, and few sales professionals are equipped to penetrate it. The Must-React System is written help all sales professionals master the art of persuasion, and especially in the important area of cold-calling, prospecting, sales pipeline development.",
+    "year": 2008,
     "pages": 120,
     "language": "en",
-    "image": {
-      "small": "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 3,
+    "situation": "Novo",
+    "images": [
+      "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "ff6ZDwAAQBAJ",
+    "id": 40,
     "title": "Primeiros passos com React",
-    "authors": [
-      "Stoyan Stefanov"
-    ],
+    "author": "Stoyan Stefanov",
     "publisher": "Novatec Editora",
-    "year": "2019-05-24",
     "description": "Saia trabalhando de imediato com React: a tecnologia de código aberto do Facebook para construir rapidamente aplicações web sofisticadas. Com este guia prático, o desenvolvedor web Stoyan Stefanov ensina você a construir componentes – os blocos de construção básicos da React – e a organizá-los em aplicações de larga escala, viáveis do ponto de vista da manutenção. Se você tiver familiaridade com a sintaxe básica de JavaScript, estará pronto para começar. Depois de entender como React funciona, você construirá uma aplicação personalizada Whinepad completa para ajudar os usuários a classificar vinhos e a guardar anotações. Você aprenderá rapidamente por que alguns desenvolvedores consideram React essencial para o quebra-cabeça que é o desenvolvimento de aplicações web. Instale React e escreva sua primeira aplicação web \"Hello world\". Crie componentes React personalizados, usando-os juntamente com componentes DOM genéricos. Construa um componente de tabela de dados que permita editar, ordenar, pesquisar e exportar seu conteúdo. Utilize a extensão de sintaxe JSX como alternativa a chamadas de função. Configure um processo de construção simples, de baixo nível, que ajude você a se concentrar na React. Construa uma aplicação personalizada completa que permita armazenar dados no cliente. Use as ferramentas ESLint, Flow e Jest para verificar e testar o seu código à medida que sua aplicação evoluir. Administre a comunicação entre os componentes usando Flux.",
+    "year": 2019,
     "pages": 248,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=ff6ZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=ff6ZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 2,
+    "situation": "",
+    "images": [
+      "http://books.google.com/books/content?id=ff6ZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "hmWCCwAAQBAJ",
+    "id": 41,
     "title": "Lógica de Programação",
-    "authors": [
-      "Paulo Silveira",
-      "Adriano Almeida"
-    ],
+    "author": "Paulo Silveira e Adriano Almeida",
     "publisher": "Editora Casa do Código",
-    "year": "2014-04-16",
     "description": "Agora é a hora para você aprender a programar! Com uma abordagem totalmente prática e voltada para o iniciante os conceitos de programação são apresentados de forma simples através do surgimento de suas necessidades, sempre levando em consideração a motivaçção prática das mesmas e suas soluções. Usando apenas um navegador e um editor de textos você vai criar seus primeiros programas. A lógica apresentada leva em consideração os problemas do dia a dia de forma a tornar a programação familiar desde o começo do aprendizado. O livro usa HTML e JavaScript, mostrando a sintaxe, instruções, funções específicas da linguagem e problemas corriqueiros da programação. Somado a isso você ainda aprende a usar o Canvas do HTML para desenhar usando código e impressionar qualquer pessoa. Entre no mundo da programação com os livros da Editora Casa do Código.",
+    "year": 2014,
     "pages": 173,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=hmWCCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=hmWCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "Desgastado",
+    "images": [
+      "http://books.google.com/books/content?id=hmWCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=hmWCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   },
   {
-    "id": "d2fXbuIpTw0C",
-    "title": "Arquitetura Da Informacao Para Web: Um Estudo Do Portal Administradores.com.br",
+    "id": 42,
+    "title": "Arquitetura Da Informação Para Web: Um Estudo Do Portal Administradores.com.br",
     "publisher": "UFPB-CSSA-DCI",
+    "year": 2017,
+    "pages": 99,
     "language": "pt",
-    "image": {
-      "small": "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "large": "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
+    "owner": 1,
+    "situation": "Páginas Faltando",
+    "images": [
+      "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    ]
   }
 ]
