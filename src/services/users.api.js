@@ -1,16 +1,6 @@
 import clonedeep from 'lodash.clonedeep'
 import originalUsers from '../data/users'
-
-const MIN_DELAY = 1000
-const MAX_DELAY = 3000
-
-const delay = () => {
-  const interval = MAX_DELAY - MIN_DELAY
-  const random = Math.random() * interval
-  const rounded = Math.floor(random)
-
-  return rounded + MIN_DELAY
-}
+import { deferCall } from '../utils/fake-api'
 
 const make = (props) => ({
   ...props,
@@ -18,52 +8,43 @@ const make = (props) => ({
 })
 
 export const get = () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      const users = clonedeep(originalUsers)
-
-      resolve(users)
-    }, delay())
-  })
+  return deferCall(() => clonedeep(originalUsers))
 }
 
 export const find = (userId) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      const users = clonedeep(originalUsers)
-      const user = users.find(({ id }) => userId === id)
+  return deferCall(() => {
+    const users = clonedeep(originalUsers)
+    const user = users.find(({ id }) => userId === id)
 
-      resolve(user)
-    }, delay())
+    return user ?? null
   })
 }
 
 export const create = (userData) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      const {
-        avatar,
-        password,
-        lastName,
-        firstName,
-        emails = [],
-        phoneNumber,
-        dateOfBirth,
-        registration,
-      } = userData
-      const newUser = make({
-        registration,
-        dateOfBirth,
-        phoneNumber,
-        firstName,
-        lastName,
-        password,
-        emails,
-        avatar,
-      })
+  return deferCall(() => {
+    const {
+      avatar,
+      password,
+      lastName,
+      firstName,
+      emails = [],
+      phoneNumber,
+      dateOfBirth,
+      registration,
+    } = userData
+    const newUser = make({
+      registration,
+      dateOfBirth,
+      phoneNumber,
+      firstName,
+      lastName,
+      password,
+      emails,
+      avatar,
+    })
 
-      originalUsers.push(newUser)
-      resolve(newUser)
-    }, delay())
-  })
+    originalUsers.push(newUser)
+
+    return newUser
+  }, { min: 100, max: 1000 })
 }
