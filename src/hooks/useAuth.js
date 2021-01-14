@@ -1,33 +1,49 @@
 import { useState } from 'react'
-import users from '../data/users'
+import * as usersApi from '../services/users.api'
+
+const STORAGE_KEY = 'BIBLIOTECA_SOLIDARIA::user_data'
 
 const useAuth = () => {
-  const STORAGE_KEY = 'user_data'
-  const storage = JSON.parse(localStorage.getItem(STORAGE_KEY))
-  const [userData] = useState(storage)
-  const isAuthenticated = Boolean(storage)
+  const storedData = JSON.parse(localStorage.getItem(STORAGE_KEY))
+  const [isLoading, setLoading] = useState(false)
+  const [isAuthenticated] = useState(!!storedData)
+  const [userData] = useState(storedData)
 
   const refreshPage = () => {
-    // eslint-disable-next-line no-self-assign
-    location.href = location.href
+    location.replace(location.href)
   }
 
-  const login = (username, password) => {
-    const user = users.find((u) => u.username === username && u.password === password)
+  const login = async (username, password) => {
+    setLoading(true)
 
-    if (user) {
-      delete user.password
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
+    const users = await usersApi.get()
+    const thisUser = users.find((u) => u.registration === username && u.password === password)
+
+    setLoading(false)
+
+    if (thisUser) {
+      delete thisUser.password
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(thisUser))
       refreshPage()
+    } else {
+      throw new Error('Credenciais inválidas.')
     }
   }
 
-  const logout = () => {
-    localStorage.removeItem(STORAGE_KEY)
+  const logout = async () => {
+    setLoading(true)
+    await localStorage.removeItem(STORAGE_KEY)
+    setLoading(false)
     refreshPage()
   }
 
-  return { userData, isAuthenticated, login, logout }
+  return {
+    isLoading,
+    userData,
+    isAuthenticated,
+    login,
+    logout,
+  }
 }
 
 export default useAuth
