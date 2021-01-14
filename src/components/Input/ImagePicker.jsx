@@ -19,9 +19,11 @@ const ImagePicker = ({ model: [value, setBase64], ...rest }) => {
 
   useEffect(() => {
     window.onresize = () => {
-      fluidImage.current.style.height = `${fluidImage.current.clientWidth}px`
+      if (fluidImage) {
+        fluidImage.current.style.height = `${fluidImage.current.clientWidth}px`
+      }
     }
-    window.onresize()
+    setTimeout(() => window.onresize(), 100)
   }, [])
 
   return (
