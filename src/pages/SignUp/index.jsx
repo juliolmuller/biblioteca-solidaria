@@ -6,19 +6,30 @@ import Input from '../../components/Input'
 import './styles.scss'
 
 const SignUp = () => {
-  const [grr, setGrr] = useState('')
   const [email, setEmail] = useState('')
   const [avatar, setAvatar] = useState('')
-  const [fullName, setFullName] = useState('')
+  const [password, setPassword] = useState('')
+  const [lastName, setLastName] = useState('')
+  const [firstName, setFirstName] = useState('')
   const [dateOfBirth, setDateOfBirth] = useState('')
   const [phoneNumber, setPhoneNumber] = useState('')
+  const [registration, setRegistration] = useState('')
   const [termsAgreed, setTermsAgreed] = useState(false)
+  const [passwordConfirmation, setPasswordConfirmation] = useState('')
 
   const handleSubmit = (event) => {
     event.preventDefault()
 
     console.log({
-      fullName, dateOfBirth, phoneNumber, email, grr, termsAgreed,
+      firstName,
+      lastName,
+      dateOfBirth,
+      phoneNumber,
+      email,
+      registration,
+      password,
+      passwordConfirmation,
+      termsAgreed,
     })
   }
 
@@ -40,8 +51,13 @@ const SignUp = () => {
             required
           />
           <Input
-            label="Nome completo:"
-            model={[fullName, setFullName]}
+            label="Primeiro nome:"
+            model={[firstName, setFirstName]}
+            required
+          />
+          <Input
+            label="Sobrenome:"
+            model={[lastName, setLastName]}
             required
           />
           <Input
@@ -63,7 +79,19 @@ const SignUp = () => {
           />
           <Input
             label="Matrícula (GRR ou outro):"
-            model={[grr, setGrr]}
+            model={[registration, setRegistration]}
+            required
+          />
+          <Input
+            type="password"
+            label="Senha de acesso:"
+            model={[password, setPassword]}
+            required
+          />
+          <Input
+            type="password"
+            label="Repetir senha:"
+            model={[passwordConfirmation, setPasswordConfirmation]}
             required
           />
           <Input
