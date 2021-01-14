@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Header from '../../components/TheHeader'
 import HorizontalLine from '../../components/HorizontalLine'
 import Input from '../../components/Input'
+import { useAuth, useUsersApi } from '../../hooks'
 import './styles.scss'
 
 const SignUp = () => {
@@ -16,21 +17,23 @@ const SignUp = () => {
   const [registration, setRegistration] = useState('')
   const [termsAgreed, setTermsAgreed] = useState(false)
   const [passwordConfirmation, setPasswordConfirmation] = useState('')
+  const { isLoading: isAuthenticating, login } = useAuth()
+  const { isLoading, createNewUser } = useUsersApi()
 
   const handleSubmit = (event) => {
     event.preventDefault()
-
-    console.log({
-      firstName,
-      lastName,
+    createNewUser({
+      passwordConfirmation,
+      registration,
       dateOfBirth,
       phoneNumber,
-      email,
-      registration,
-      password,
-      passwordConfirmation,
       termsAgreed,
-    })
+      firstName,
+      lastName,
+      password,
+      avatar,
+      email,
+    }).then(() => login(registration, password))
   }
 
   return (
@@ -106,11 +109,13 @@ const SignUp = () => {
             <button
               type="submit"
               className="btn btn-lg btn-secondary"
+              disabled={isAuthenticating || isLoading}
             >Enviar dados</button>
 
             <Link
               to="/"
               className="btn btn-lg btn-link"
+              disabled={isLoading}
             >Cancelar e retornar à página anterior</Link>
           </div>
         </form>

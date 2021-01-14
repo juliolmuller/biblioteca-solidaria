@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useAuth } from '../../hooks'
 
 const LogInForm = () => {
-  const { login } = useAuth()
+  const { isLoading, login } = useAuth()
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
 
@@ -52,7 +52,12 @@ const LogInForm = () => {
           </div>
         </div>
       </div>
-      <button type="submit" className="btn btn-secondary">
+
+      <button
+        type="submit"
+        className="btn btn-secondary"
+        disabled={isLoading}
+      >
         Entrar
       </button>
     </form>
