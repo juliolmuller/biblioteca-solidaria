@@ -4,6 +4,7 @@ import Header from '../../components/TheHeader'
 import HorizontalLine from '../../components/HorizontalLine'
 import Input from '../../components/Input'
 import { useAuth, useUsersApi } from '../../hooks'
+import * as masks from '../../utils/input-masks'
 import './styles.scss'
 
 const SignUp = () => {
@@ -48,52 +49,63 @@ const SignUp = () => {
 
         <form onSubmit={handleSubmit}>
           <Input
+            label="Primeiro nome:"
+            model={[firstName, setFirstName]}
+            mask={masks.name}
+            required
+            autoFocus
+          />
+          <Input
+            label="Sobrenome:"
+            model={[lastName, setLastName]}
+            mask={masks.name}
+            required
+          />
+          <Input
             type="avatar"
             label="Foto do usuário:"
             model={[avatar, setAvatar]}
             required
           />
           <Input
-            label="Primeiro nome:"
-            model={[firstName, setFirstName]}
-            required
-          />
-          <Input
-            label="Sobrenome:"
-            model={[lastName, setLastName]}
-            required
-          />
-          <Input
-            type="date"
             label="Data de nascimento:"
+            placeholder="dd/mm/aaaa"
             model={[dateOfBirth, setDateOfBirth]}
+            mask={masks.date}
             required
           />
           <Input
             type="tel"
             label="Telefone de contato:"
+            placeholder="(00) 0000-0000"
             model={[phoneNumber, setPhoneNumber]}
+            mask={masks.phone}
           />
           <Input
             type="email"
             label="Email da UFPR:"
+            placeholder="exemplo@email.com"
             model={[email, setEmail]}
             required
           />
           <Input
             label="Matrícula (GRR ou outro):"
+            placeholder="GRR00000000"
             model={[registration, setRegistration]}
+            mask={masks.grr}
             required
           />
           <Input
             type="password"
             label="Senha de acesso:"
+            placeholder="* * * * *"
             model={[password, setPassword]}
             required
           />
           <Input
             type="password"
             label="Repetir senha:"
+            placeholder="* * * * *"
             model={[passwordConfirmation, setPasswordConfirmation]}
             required
           />
