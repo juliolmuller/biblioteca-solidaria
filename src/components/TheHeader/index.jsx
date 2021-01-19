@@ -4,7 +4,7 @@ import SearchInput from '../SearchInput'
 import UserControls from './UserControls'
 import './styles.scss'
 
-const TheHeader = ({ searchControls }) => {
+const TheHeader = ({ searchControls = false }) => {
   const { isAuthenticated } = useAuth()
   const handleSearch = () => {}
 
@@ -17,6 +17,11 @@ const TheHeader = ({ searchControls }) => {
         <div className="ml-auto d-flex">
           {isAuthenticated && searchControls && (
             <SearchInput onSubmit={handleSearch} placeholder="Pesquisar..." />
+          )}
+          {isAuthenticated && !searchControls && (
+            <Link to="/livro/novo" className="new-book-btn btn btn-sm btn-outline-light">
+              <span><i className="fas fa-plus"></i> Anunciar Livro</span>
+            </Link>
           )}
           {isAuthenticated && (
             <UserControls />

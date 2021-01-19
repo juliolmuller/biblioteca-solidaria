@@ -6,13 +6,19 @@
     padding-top: 0;
   }
 
+  .new-book-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .user-controls {
-    margin-left: 60px;
+    margin-left: 1rem;
 
     img {
-      object-fit: contain;
       height: 24px;
-      margin-left: 16px;
+      margin-left: 1rem;
+      object-fit: contain;
     }
 
     .dropdown-menu {
