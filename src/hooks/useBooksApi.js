@@ -16,7 +16,19 @@ const useBooksApi = () => {
     }
   }
 
-  return { isLoading, getBooks }
+  const createNewBook = async (bookData) => {
+    setLoading(true)
+
+    try {
+      return await booksApi.create(bookData)
+    } catch (error) {
+      throw error
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  return { isLoading, getBooks, createNewBook }
 }
 
 export default useBooksApi

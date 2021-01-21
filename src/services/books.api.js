@@ -19,3 +19,38 @@ export const find = (bookId) => {
     return book ?? null
   })
 }
+
+export const create = (bookData) => {
+  return deferCall(() => {
+    const {
+      year,
+      title,
+      pages,
+      images,
+      author,
+      edition,
+      language,
+      publisher,
+      situation,
+      testimony,
+      description,
+    } = bookData
+    const newBook = make({
+      description,
+      testimony,
+      situation,
+      publisher,
+      language,
+      edition,
+      images,
+      author,
+      pages,
+      title,
+      year,
+    })
+
+    originalBooks.push(newBook)
+
+    return newBook
+  }, { min: 100, max: 1000 })
+}
