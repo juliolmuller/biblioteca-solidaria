@@ -36,3 +36,10 @@ export const grr = {
     field.val(value.toUpperCase())
   },
 }
+
+export const number = (digitsCount) => ({
+  template: '0'.repeat(digitsCount),
+  translation: {
+    0: { pattern: /\d/ },
+  },
+})
