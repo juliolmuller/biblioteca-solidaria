@@ -48,21 +48,36 @@
     left: 1.5rem;
   }
 
-  input {
+  input, textarea {
+    border-color: var(--primary);
     margin-bottom: 1rem;
     font-size: large;
+    resize: none;
   }
 
   .image-picker {
     margin-bottom: 1rem;
 
-    img {
-      width: 100%;
+    img.avatar {
+      width: 8rem;
+      height: 8rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    img.image {
+      width: 6rem;
+      height: 8rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
       object-fit: cover;
       border-radius: 50%;
     }
 
     .controls {
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -71,7 +86,11 @@
     }
 
     input[type="file"] {
-      display: none;
+      position: absolute;
+      left: 1rem;
+      top: 2rem;
+      z-index: -99;
+      opacity: 0;
     }
   }
 }

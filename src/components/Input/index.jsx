@@ -7,6 +7,7 @@ const Input = ({
   model: [value, setter],
   id = Math.random(),
   required = false,
+  multiple = false,
   type = 'text',
   checkboxLabel,
   label,
@@ -51,12 +52,20 @@ const Input = ({
       </div>
 
       <div className={wrapperClass}>
-        {type === 'avatar' ? (
+        {/avatar|image/.test(type) && (
           <ImagePicker
+            type={type}
             model={[value, setter]}
             required={required}
+            multiple={multiple}
           />
-        ) : (
+        )}
+
+        {type === 'multiline' && (
+          <textarea {...attrs} rows="3" />
+        )}
+
+        {!/avatar|image/.test(type) && type !== 'multiline' && (
           <>
             <input {...attrs} />
             {type === 'checkbox' && checkboxLabel && (

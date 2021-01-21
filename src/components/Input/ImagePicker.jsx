@@ -1,48 +1,47 @@
-import { useEffect, useRef } from 'react'
-import avatarImg from '../../images/avatar.png'
+import imageToBase64 from '../../utils/image-to-base64'
+import avatarPlaceholder from '../../images/avatar.png'
+import imagePlaceholder from '../../images/image.png'
 
-const ImagePicker = ({ model: [value, setBase64], ...rest }) => {
+const ImagePicker = ({
+  model: [value, setBase64],
+  required,
+  multiple,
+  type,
+  ...rest
+}) => {
   const id = Math.random()
-  const fluidImage = useRef()
 
-  const handleChange = (event) => {
+  const handleChange = async (event) => {
     const [file] = event.target.files
-    const fileReader = new FileReader()
+    const base64 = await imageToBase64(file)
 
-    fileReader.onload = () => setBase64(fileReader.result)
-    fileReader.readAsDataURL(file)
+    setBase64(base64)
   }
 
   const handleError = (event) => {
-    event.target.src = avatarImg
+    event.target.src = type === 'avatar'
+      ? avatarPlaceholder
+      : imagePlaceholder
   }
-
-  useEffect(() => {
-    window.onresize = () => {
-      if (fluidImage) {
-        fluidImage.current.style.height = `${fluidImage.current.clientWidth}px`
-      }
-    }
-    setTimeout(() => window.onresize(), 100)
-  }, [])
 
   return (
     <div className="image-picker row">
-      <div className="preview col-4 col-md-5 col-lg-4">
+      <div className="preview">
         <img
           src={value}
-          ref={fluidImage}
-          className="img-fluida"
+          className={`${type} rounded`}
           onError={handleError}
           alt="foto do usuário"
         />
       </div>
-      <div className="controls col-8 col-md-6 col-lg-8">
+      <div className="controls ">
         <input
           id={id}
           type="file"
           onChange={handleChange}
           accept="image/jpeg,image/png"
+          multiple={multiple}
+          required={required}
           {...rest}
         />
         <label htmlFor={id} className="btn btn-secondary">
