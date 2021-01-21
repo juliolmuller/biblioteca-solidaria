@@ -40,10 +40,11 @@ const SignUp = () => {
   return (
     <div id="signup">
       <Header />
+
       <div className="container-tiny">
         <HorizontalLine />
 
-        <h1 className="header">
+        <h1 className="page-title">
           Cadastro de Novo Usuário
         </h1>
 

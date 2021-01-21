@@ -51,10 +51,39 @@ button.btn:focus, a.btn:focus {
 
 .container-tiny {
   @extend .container;
+
+  @media (min-width: 992px) {
+    & {
+      max-width: 860px;
+    }
+  }
 }
 
-@media (min-width: 992px) {
-  .container-tiny {
-    max-width: 860px;
+h1.page-title {
+  color: var(--main);
+  font-size: x-large;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+
+  button[type="submit"] {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: #007bff;
+  }
+
+  @media (min-width: 768px) {
+    & {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 }
