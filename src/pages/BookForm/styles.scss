@@ -1,0 +1,13 @@
+
+#book-form {
+  padding-bottom: 8rem;
+
+  img.image:first-of-type {
+    border: 1px solid var(--primary);
+
+    &::after {
+      content: 'principal';
+      text-transform: uppercase;
+    }
+  }
+}
