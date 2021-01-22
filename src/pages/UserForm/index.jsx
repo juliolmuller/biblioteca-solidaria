@@ -1,11 +1,15 @@
 import Header from '../../components/TheHeader'
+import HorizontalLine from '../../components/HorizontalLine'
 import './styles.scss'
 
 const UserForm = () => (
   <div id="user-form">
     <Header searchControls />
-    <div className="container-tiny pt-5">
-      <h1 className="text-main">
+
+    <div className="container">
+      <HorizontalLine />
+
+      <h1 className="page-title">
         Hello, UserForm!
       </h1>
     </div>

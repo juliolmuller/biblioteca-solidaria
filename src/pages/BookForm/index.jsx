@@ -44,7 +44,7 @@ const BookForm = () => {
     <div id="book-form">
       <Header searchControls />
 
-      <div className="container-tiny">
+      <div className="container">
         <HorizontalLine />
 
         <h1 className="page-title">

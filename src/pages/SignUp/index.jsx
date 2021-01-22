@@ -41,7 +41,7 @@ const SignUp = () => {
     <div id="signup">
       <Header />
 
-      <div className="container-tiny">
+      <div className="container">
         <HorizontalLine />
 
         <h1 className="page-title">
