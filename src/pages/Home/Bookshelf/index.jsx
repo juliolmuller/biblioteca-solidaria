@@ -54,7 +54,7 @@ const Bookshelf = ({ filter, sort }) => {
           .filter(handleFiltering)
           .sort(handleSorting)
           .map((book) => (
-            <div className="col">
+            <div key={book.id} className="col">
               <Link to={`/livro/${book.id}`} key={book.id} className="card h-100">
                 <div className="row no-gutters">
                   <div className="col-5">
