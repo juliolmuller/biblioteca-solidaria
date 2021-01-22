@@ -16,6 +16,18 @@ const useBooksApi = () => {
     }
   }
 
+  const findBookById = async (bookId) => {
+    setLoading(true)
+
+    try {
+      return await booksApi.find(bookId)
+    } catch (error) {
+      throw error
+    } finally {
+      setLoading(false)
+    }
+  }
+
   const createNewBook = async (bookData) => {
     setLoading(true)
 
@@ -28,7 +40,7 @@ const useBooksApi = () => {
     }
   }
 
-  return { isLoading, getBooks, createNewBook }
+  return { isLoading, getBooks, findBookById, createNewBook }
 }
 
 export default useBooksApi
