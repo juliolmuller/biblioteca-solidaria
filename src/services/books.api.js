@@ -1,5 +1,6 @@
 import clonedeep from 'lodash.clonedeep'
 import originalBooks from '../data/books'
+import { find as findUser } from './users.api'
 import { deferCall } from '../utils/fake-api'
 
 export const make = (props) => ({
@@ -11,13 +12,12 @@ export const get = () => {
   return deferCall(() => clonedeep(originalBooks))
 }
 
-export const find = (bookId) => {
-  return deferCall(() => {
-    const books = clonedeep(originalBooks)
-    const book = books.find(({ id }) => bookId === id)
+export const find = async (bookId) => {
+  const books = clonedeep(originalBooks)
+  const book = books.find(({ id }) => bookId === id)
+  book.owner = await findUser(book.owner)
 
-    return book ?? null
-  })
+  return book || null
 }
 
 export const create = (bookData) => {
