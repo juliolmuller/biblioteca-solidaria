@@ -1,6 +1,6 @@
 
-const MIN_DELAY = 1000
-const MAX_DELAY = 3000
+const MIN_DELAY = 600
+const MAX_DELAY = 1500
 
 const randomMilliseconds = ({ min = MIN_DELAY, max = MAX_DELAY }) => {
   const interval = max - min
