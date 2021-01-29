@@ -7,7 +7,7 @@ const UserForm = () => (
     <Header searchControls />
 
     <div className="container">
-      <HorizontalLine />
+      <HorizontalLine goBackButton />
 
       <h1 className="page-title">
         Hello, UserForm!

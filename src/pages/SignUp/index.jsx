@@ -42,7 +42,7 @@ const SignUp = () => {
       <Header />
 
       <div className="container">
-        <HorizontalLine />
+        <HorizontalLine goBackButton />
 
         <h1 className="page-title">
           Cadastro de Novo Usuário

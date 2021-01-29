@@ -75,7 +75,7 @@ const BookForm = () => {
       <Header searchControls />
 
       <div className="container">
-        <HorizontalLine />
+        <HorizontalLine goBackButton />
 
         {(bookId && isLoading) ? (
           <div className="book-details-loading">

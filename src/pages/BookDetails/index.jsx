@@ -23,7 +23,7 @@ const BookDetails = () => {
       <Header searchControls />
 
       <div className="container">
-        <HorizontalLine />
+        <HorizontalLine goBackButton />
 
         {(!book || isLoading) ? (
           <div className="book-details-loading">
