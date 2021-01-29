@@ -33,6 +33,8 @@ export const create = (userData) => {
       registration,
     } = userData
     const newUser = make({
+      isWhatsApp: false,
+      isTelegram: false,
       registration,
       dateOfBirth,
       phoneNumber,

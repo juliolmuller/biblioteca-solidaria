@@ -4,8 +4,10 @@
     "registration": "GRR20180001",
     "firstName": "Gustavo",
     "lastName": "Oliveira",
-    "dateOfBirth": "1992-12-18",
-    "phoneNumber": "41999888777",
+    "dateOfBirth": "18/12/1992",
+    "phoneNumber": "(41) 99988-8777",
+    "isWhatsApp": true,
+    "isTelegram": true,
     "emails": [
       "gustavo@ufpr.br"
     ],
@@ -17,8 +19,10 @@
     "registration": "GRR20180002",
     "firstName": "Júlio",
     "lastName": "Muller",
-    "dateOfBirth": "1992-03-30",
-    "phoneNumber": "41999777888",
+    "dateOfBirth": "30/03/1992",
+    "phoneNumber": "(41) 99988-8777",
+    "isWhatsApp": true,
+    "isTelegram": true,
     "emails": [
       "julio@ufpr.br"
     ],
@@ -30,8 +34,10 @@
     "registration": "GRR20180003",
     "firstName": "Luan",
     "lastName": "Araújo",
-    "dateOfBirth": "1996-06-30",
-    "phoneNumber": "41888777999",
+    "dateOfBirth": "24/06/1999",
+    "phoneNumber": "(41) 99988-8777",
+    "isWhatsApp": true,
+    "isTelegram": true,
     "emails": [
       "luan@ufpr.br"
     ],
