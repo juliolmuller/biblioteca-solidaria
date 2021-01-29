@@ -1,0 +1,28 @@
+
+.book-tile {
+  display: flex;
+  margin-bottom: 1.5rem;
+
+  .book-cover img {
+    width: 5rem;
+    object-fit: cover;
+  }
+
+  .book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.25rem 0.75rem;
+
+    .book-title {
+      font-weight: bold;
+    }
+
+    .book-actions {
+      button, a {
+        border-radius: 50%;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

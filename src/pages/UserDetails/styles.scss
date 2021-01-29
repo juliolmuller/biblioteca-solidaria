@@ -1,0 +1,49 @@
+
+.user-details-loading {
+  display: flex;
+  height: 60vh;
+
+  img {
+    margin: auto;
+  }
+}
+
+#user-details {
+  padding-bottom: 8rem;
+
+  img.user-avatar {
+    width: 100%;
+    padding: 0 5rem 2rem;
+    object-fit: contain;
+
+    @media (min-width: 768px) {
+      padding: 0 1rem 2rem 0;
+    }
+  }
+
+  .user-name {
+    margin-bottom: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+
+    & + .btn {
+      align-self: start;
+      margin-left: auto;
+      width: 120px;
+
+      & > i {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .user-prop {
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+
+  .user-prop-value {
+    margin-top: 1.5rem;
+    text-align: justify;
+  }
+}
