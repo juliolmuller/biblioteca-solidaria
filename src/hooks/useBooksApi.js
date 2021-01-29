@@ -52,12 +52,17 @@ const useBooksApi = () => {
     }
   }
 
+  const deleteBook = (bookId) => {
+    return booksApi.destroy(bookId)
+  }
+
   return {
     isLoading,
     getBooks,
     findBookById,
     createNewBook,
     updateBook,
+    deleteBook,
   }
 }
 

@@ -66,3 +66,14 @@ export const update = (bookId, bookData) => {
     return newBook
   })
 }
+
+export const destroy = (bookId) => {
+  return deferCall(() => {
+    const index = originalBooks.find((book) => bookId === book.id)
+    const book = { ...originalBooks[index] }
+
+    originalBooks.splice(index, 1)
+
+    return book
+  })
+}
