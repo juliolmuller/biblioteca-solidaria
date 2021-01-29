@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, useHistory, useParams } from 'react-router-dom'
+import { useHistory, useParams } from 'react-router-dom'
 import Header from '../../components/TheHeader'
 import HorizontalLine from '../../components/HorizontalLine'
 import Input from '../../components/Input'
@@ -160,11 +160,12 @@ const BookForm = () => {
                   disabled={isLoading}
                 >Enviar dados</button>
 
-                <Link
-                  to="/"
+                <button
+                  type="button"
                   className="btn btn-lg btn-link"
+                  onClick={() => router.goBack()}
                   disabled={isLoading}
-                >Cancelar e retornar à página inicial</Link>
+                >Cancelar e retornar à página inicial</button>
               </div>
             </form>
           </>
