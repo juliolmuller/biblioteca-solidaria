@@ -23,8 +23,17 @@ export const make = (props) => ({
   id: originalBooks.reduce((max, { id }) => Math.max(max, id), 0) + 1,
 })
 
-export const get = () => {
-  return deferCall(() => clonedeep(originalBooks))
+export const get = (params = {}) => {
+  const books = clonedeep(originalBooks)
+  const paramEntries = Object.entries(params)
+  const filteredBooks = books.filter((book) => {
+    return !paramEntries.length
+      || paramEntries.every(([key, value]) => {
+        return book[key] === value
+      })
+  })
+
+  return deferCall(() => filteredBooks)
 }
 
 export const find = async (bookId) => {

@@ -4,11 +4,11 @@ import * as booksApi from '../services/books.api'
 const useBooksApi = () => {
   const [isLoading, setLoading] = useState(false)
 
-  const getBooks = async () => {
+  const getBooks = async (params) => {
     setLoading(true)
 
     try {
-      return await booksApi.get()
+      return await booksApi.get(params)
     } catch (error) {
       throw error
     } finally {
