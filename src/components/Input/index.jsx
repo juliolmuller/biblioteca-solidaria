@@ -7,6 +7,7 @@ const Input = ({
   model: [value, setter],
   id = Math.random(),
   required = false,
+  readOnly = false,
   multiple = false,
   type = 'text',
   checkboxLabel,
@@ -15,17 +16,20 @@ const Input = ({
   ...rest
 }) => {
   const thisInput = useRef()
+  const className = readOnly // eslint-disable-line no-nested-ternary
+    ? 'form-control-plaintext border-0'
+    : (type === 'checkbox'
+      ? 'custom-control-input'
+      : 'form-control')
   const wrapperClass = `
     input col-12 col-md-8 custom-control
     ${type === 'checkbox' ? 'custom-checkbox' : ''}
   `
-  const className = type === 'checkbox'
-    ? 'custom-control-input'
-    : 'form-control'
   const attrs = {
     ref: thisInput,
-    id, type, required, value, className, // eslint-disable-line object-property-newline
+    id, type, required, readOnly, value, className, // eslint-disable-line object-property-newline
     onChange: (e) => setter(e.target.value),
+    checked: (type === 'checkbox' && value),
     ...rest,
   }
 
