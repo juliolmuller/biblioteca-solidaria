@@ -16,14 +16,16 @@ const useAuth = () => {
   const login = async (username, password) => {
     setLoading(true)
 
-    const users = await usersApi.get()
-    const thisUser = users.find((u) => u.registration === username && u.password === password)
+    const [user] = await usersApi.get({
+      registration: username,
+      password,
+    })
 
     setLoading(false)
 
-    if (thisUser) {
-      delete thisUser.password
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(thisUser))
+    if (user) {
+      // delete thisUser.password
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
       refreshPage()
     } else {
       throw new Error('Credenciais inválidas.')
