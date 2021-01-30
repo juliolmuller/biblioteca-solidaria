@@ -7,8 +7,17 @@ const make = (props) => ({
   id: originalUsers.reduce((max, { id }) => Math.max(max, id), 0) + 1,
 })
 
-export const get = () => {
-  return deferCall(() => clonedeep(originalUsers))
+export const get = (params = {}) => {
+  const users = clonedeep(originalUsers)
+  const paramEntries = Object.entries(params)
+  const filteredUsers = users.filter((user) => {
+    return !paramEntries.length
+      || paramEntries.every(([key, value]) => {
+        return user[key] === value
+      })
+  })
+
+  return deferCall(() => filteredUsers)
 }
 
 export const find = (userId) => {
