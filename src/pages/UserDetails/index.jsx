@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../../components/TheHeader'
 import HorizontalLine from '../../components/HorizontalLine'
+import DetailItem from '../../components/DetailItem'
 import BookTile from './BookTile'
 import { useAuth, useBooksApi } from '../../hooks'
 import loadingSpinner from '../../images/loading-spinner.svg'
@@ -41,7 +42,7 @@ const UserDetails = () => {
                 <img src={userData.avatar} className="user-avatar" alt="Foto do usuário" />
               </div>
               <div className="col-12 col-md-8 col-lg-9 d-relative">
-                <header className="d-flex">
+                <header className="d-flex align-items-center">
                   <h2 className="user-name">
                     {userData.firstName} {userData.lastName}
                   </h2>
@@ -52,33 +53,35 @@ const UserDetails = () => {
                 </header>
 
                 <section className="row">
-                  {Boolean(userData.dateOfBirth) && <>
-                    <div className="col-3 user-prop">Data de nascimento:</div>
-                    <div className="col-9 user-prop-value">{userData.dateOfBirth}</div>
-                  </>}
-                  {Boolean(userData.registration) && <>
-                    <div className="col-3 user-prop">Matrícula UFPR:</div>
-                    <div className="col-9 user-prop-value">{userData.registration}</div>
-                  </>}
-                  {Boolean(userData.emails.length) && <>
-                    <div className="col-3 user-prop">E-mails para contato:</div>
-                    <div className="col-9 user-prop-value">
+                  {Boolean(userData.dateOfBirth) && (
+                    <DetailItem title="Data de nascimento:">
+                      {userData.dateOfBirth}
+                    </DetailItem>
+                  )}
+
+                  {Boolean(userData.registration) && (
+                    <DetailItem title="Matrícula UFPR:">
+                      {userData.registration}
+                    </DetailItem>
+                  )}
+
+                  {Boolean(userData.emails.length) && (
+                    <DetailItem title="E-mails para contato:">
                       {userData.emails.map((email) => (
                         <div key={email}>{email}</div>
                       ))}
-                    </div>
-                  </>}
-                  {Boolean(userData.phoneNumber) && <>
-                    <div className="col-3 user-prop">Número de telefone:</div>
-                    <div className="col-9 user-prop-value">
+                    </DetailItem>
+                  )}
+
+                  {Boolean(userData.phoneNumber) && (
+                    <DetailItem title="Número de telefone:">
                       {userData.phoneNumber}
                       {userData.isTelegram && <i className="fab fa-telegram-plane pl-3"></i>}
                       {userData.isWhatsApp && <i className="fab fa-whatsapp pl-3"></i>}
-                    </div>
-                  </>}
+                    </DetailItem>
+                  )}
 
-                  <div className="col-3 user-prop">Livros anunciados:</div>
-                  <div className="col-9 user-prop-value">
+                  <DetailItem title="Livros anunciados:">
                     {books?.map((book) => (
                       <BookTile key={book.id} book={book} onDelete={() => handleDelete(book)} />
                     ))}
@@ -90,7 +93,7 @@ const UserDetails = () => {
                       <i className="fas fa-plus mr-2"></i>
                       Anunciar Livro
                     </Link>
-                  </div>
+                  </DetailItem>
                 </section>
               </div>
             </div>

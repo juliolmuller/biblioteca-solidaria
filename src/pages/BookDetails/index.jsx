@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Header from '../../components/TheHeader'
 import HorizontalLine from '../../components/HorizontalLine'
+import DetailItem from '../../components/DetailItem'
 import ContactBox from './ContactBox'
 import { useAuth, useBooksApi } from '../../hooks'
 import loadingSpinner from '../../images/loading-spinner.svg'
@@ -50,42 +51,59 @@ const BookDetails = () => {
               )}
 
               <section className="row">
-                {Boolean(book.author) && <>
-                  <div className="col-3 book-prop">Autor(es):</div>
-                  <div className="col-9 book-prop-value">{book.author}</div>
-                </>}
-                {Boolean(book.publisher) && <>
-                  <div className="col-3 book-prop">Editora:</div>
-                  <div className="col-9 book-prop-value">{book.publisher}</div>
-                </>}
-                {Boolean(book.edition) && <>
-                  <div className="col-3 book-prop">Edição:</div>
-                  <div className="col-9 book-prop-value">{book.edition}</div>
-                </>}
-                {Boolean(book.year) && <>
-                  <div className="col-3 book-prop">Ano de publicação:</div>
-                  <div className="col-9 book-prop-value">{book.year}</div>
-                </>}
-                {Boolean(book.language) && <>
-                  <div className="col-3 book-prop">Idioma:</div>
-                  <div className="col-9 book-prop-value">{book.language}</div>
-                </>}
-                {Boolean(book.pages) && <>
-                  <div className="col-3 book-prop">Número de páginas:</div>
-                  <div className="col-9 book-prop-value">{book.pages}</div>
-                </>}
-                {Boolean(book.description) && <>
-                  <div className="col-3 book-prop">Descrição:</div>
-                  <div className="col-9 book-prop-value">{book.description}</div>
-                </>}
-                {Boolean(book.situation) && <>
-                  <div className="col-3 book-prop">Estado de conservação:</div>
-                  <div className="col-9 book-prop-value">{book.situation}</div>
-                </>}
-                {Boolean(book.testimony) && <>
-                  <div className="col-3 book-prop">Depoimento do anunciante:</div>
-                  <div className="col-9 book-prop-value">{book.testimony}</div>
-                </>}
+                {Boolean(book.author) && (
+                  <DetailItem title="Autor(es):">
+                    {book.author}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.publisher) && (
+                  <DetailItem title="Editora:">
+                    {book.publisher}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.edition) && (
+                  <DetailItem title="Edição:">
+                    {book.edition}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.year) && (
+                  <DetailItem title="Ano de publicação:">
+                    {book.year}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.language) && (
+                  <DetailItem title="Idioma:">
+                    {book.language}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.pages) && (
+                  <DetailItem title="Número de páginas:">
+                    {book.pages}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.description) && (
+                  <DetailItem title="Descrição:">
+                    {book.description}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.situation) && (
+                  <DetailItem title="Estado de conservação:">
+                    {book.situation}
+                  </DetailItem>
+                )}
+
+                {Boolean(book.testimony) && (
+                  <DetailItem title="Depoimento do anunciante:">
+                    {book.testimony}
+                  </DetailItem>
+                )}
               </section>
             </div>
           </div>
