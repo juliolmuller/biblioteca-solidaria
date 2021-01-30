@@ -158,14 +158,17 @@ const BookForm = () => {
                   type="submit"
                   className="btn btn-lg btn-secondary"
                   disabled={isLoading}
-                >Enviar dados</button>
+                >
+                  <i className="fas fa-save mr-2"></i>
+                  Confirmar
+                </button>
 
                 <button
                   type="button"
                   className="btn btn-lg btn-link"
                   onClick={() => router.goBack()}
                   disabled={isLoading}
-                >Cancelar e retornar à página inicial</button>
+                >Cancelar e retornar à página anterior</button>
               </div>
             </form>
           </>
