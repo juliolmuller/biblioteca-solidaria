@@ -112,7 +112,7 @@ const SignUp = () => {
           />
           <Input
             type="checkbox"
-            label="Matrícula (GRR ou outro):"
+            label="Termos de uso:"
             checkboxLabel="Eu li e estou de acordo com os termos de serviço da Biblioteca Solidária"
             model={[termsAgreed, setTermsAgreed]}
             required
