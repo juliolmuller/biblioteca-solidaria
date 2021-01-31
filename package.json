@@ -9,8 +9,8 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
-    "bootstrap": "^4.5.3",
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
     "jquery-mask-plugin": "^1.14.16",
     "lodash.clonedeep": "^4.5.0",
