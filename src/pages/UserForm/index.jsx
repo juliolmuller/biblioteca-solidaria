@@ -9,8 +9,8 @@ import './styles.scss'
 
 const UserForm = () => {
   const router = useHistory()
-  const { userData } = useAuth()
-  const { isLoading } = useUsersApi()
+  const { userData, login } = useAuth()
+  const { isLoading, updateUser } = useUsersApi()
   const [email, setEmail] = useState(userData.emails[0])
   const [avatar, setAvatar] = useState(userData.avatar)
   const [lastName, setLastName] = useState(userData.lastName)
@@ -21,8 +21,27 @@ const UserForm = () => {
   const [isWhatsApp, setIsWhatsApp] = useState(userData.isWhatsApp)
   const [registration] = useState(userData.registration)
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
+
+    try {
+      await updateUser({
+        id: userData.id,
+        emails: [email],
+        registration,
+        dateOfBirth,
+        phoneNumber,
+        isTelegram,
+        isWhatsApp,
+        firstName,
+        lastName,
+        avatar,
+      })
+      login(registration, userData.password)
+      router.replace('/usuario')
+    } catch (error) {
+      throw error
+    }
   }
 
   return (
@@ -54,7 +73,7 @@ const UserForm = () => {
               type="avatar"
               label="Foto do usuário:"
               model={[avatar, setAvatar]}
-              required
+              required={!avatar}
             />
             <Input
               label="Data de nascimento:"

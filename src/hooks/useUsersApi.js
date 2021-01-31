@@ -16,7 +16,19 @@ const useUsersApi = () => {
     }
   }
 
-  return { isLoading, createNewUser }
+  const updateUser = async ({ id, ...userData }) => {
+    setLoading(true)
+
+    try {
+      return await usersApi.update(id, userData)
+    } catch (error) {
+      throw error
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  return { isLoading, createNewUser, updateUser }
 }
 
 export default useUsersApi
