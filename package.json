@@ -17,7 +17,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-toast-notifications": "^2.4.0"
+    "react-toast-notifications": "^2.4.0",
+    "yup": "^0.32.8"
   },
   "devDependencies": {
     "@lacussoft/eslint-config": "^1.0.1",
