@@ -64,7 +64,7 @@
       margin-left: 1rem;
       margin-right: 1rem;
       object-fit: cover;
-      border-radius: 50%;
+      border-radius: 50% !important;
     }
 
     img.image {
@@ -73,7 +73,6 @@
       margin-left: 1rem;
       margin-right: 1rem;
       object-fit: cover;
-      border-radius: 50%;
     }
 
     .controls {
