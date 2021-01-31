@@ -1,14 +1,22 @@
 import { useState } from 'react'
-import { useAuth } from '../../hooks'
+import { useAuth, useToast } from '../../hooks'
 
 const LogInForm = () => {
+  const toast = useToast()
   const { isLoading, login } = useAuth()
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
-    login(username, password)
+
+    try {
+      await login(username, password)
+    } catch (error) {
+      setPassword('')
+      toast.error(error.message)
+      setTimeout(() => document.querySelector('[type="password').focus(), 2 * 100)
+    }
   }
 
   return (
