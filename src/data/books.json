@@ -11,11 +11,9 @@
     "owner": 3,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=0A16DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 2,
@@ -29,13 +27,9 @@
     "owner": 1,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=RY7kp2dT0jwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 3,
@@ -49,12 +43,9 @@
     "owner": 1,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=HZwOffp2QfgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 4,
@@ -68,8 +59,6 @@
     "owner": 2,
     "situation": "Novo",
     "images": [
-      "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=UKrDctoNzBMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -92,8 +81,9 @@
   },
   {
     "id": 6,
-    "title": "Introdução à programação com Python – 3ª edição",
+    "title": "Introdução à programação com Python",
     "author": "Nilo Ney Coutinho Menezes",
+    "edition": "3ª edição",
     "publisher": "Novatec Editora",
     "description": "Este livro é orientado ao iniciante em programação. Os conceitos básicos de programação, como expressões, variáveis, repetições, decisões, listas, dicionários, conjuntos, funções, arquivos, classes, objetos e banco de dados com SQLite 3 são apresentados um a um com exemplos e exercícios. A obra visa a explorar a programação de computadores como ferramenta do dia a dia. Ela pode ser lida durante um curso de introdução à programação de computadores e usada como guia de estudo para autodidatas. Para aproveitamento pleno do conteúdo, apenas conhecimentos básicos de informática, como digitar textos, abrir e salvar arquivos, são suficientes. Todo software utilizado no livro pode ser baixado gratuitamente, sendo executado em Windows, Linux e Mac OS X. Embora a linguagem Python (versão +3.7) seja muito poderosa e repleta de recursos modernos de programação, este livro não pretende ensinar a linguagem em si, mas ensinar a programar. Alguns recursos da linguagem não foram utilizados para privilegiar os exercícios de lógica de programação e oferecer uma preparação mais ampla ao leitor para outras linguagens. Essa escolha não impediu a apresentação de recursos poderosos da linguagem, e, embora o livro não seja fundamentalmente uma obra de referência, o leitor encontrará várias notas e explicações de características específicas do Python, além da lógica de programação.",
     "year": 2019,
@@ -102,12 +92,9 @@
     "owner": 3,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=sECCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 7,
@@ -121,7 +108,6 @@
     "owner": 2,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=-yjpAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=-yjpAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -138,16 +124,13 @@
     "owner": 3,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=SsH-qdTx9pUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 9,
-    "title": "Lógica de Programação e Algoritmos com JavaScript",
+    "title": "Lógica de Programação e Algoritmos com JS",
     "author": "Edécio Fernando Iepsen",
     "publisher": "Novatec Editora",
     "description": "Os conteúdos abordados em Lógica de Programação e Algoritmos são fundamentais a todos aqueles que desejam ingressar no universo da Programação de Computadores. Esses conteúdos, no geral, impõem algumas dificuldades aos iniciantes. Neste livro, o autor utiliza sua experiência de mais de 15 anos em lecionar a disciplina de Algoritmos em cursos de graduação, para trabalhar o assunto passo a passo. Cada capítulo foi cuidadosamente planejado a fim de evitar a sobrecarga de informações ao leitor, com exemplos e exercícios de fixação para cada assunto. Os exemplos e exercícios são desenvolvidos em JavaScript, linguagem amplamente utilizada no desenvolvimento de páginas para a internet. Rodar os programas JavaScript não exige nenhum software adicional; é preciso apenas abrir a página em seu navegador favorito. Como o aprendizado de Algoritmos ocorre a partir do estudo das técnicas de programação e da prática de exercícios, este livro pretende ser uma importante fonte de conhecimentos para você ingressar nessa fascinante área da programação de computadores. Assuntos abordados no livro: Fundamentos de Lógica de Programação Programas de entrada, processamento e saída Integração do código JavaScript com as páginas HTML Estruturas condicionais e de repetição Depuração de Programas JavaScript Manipulação de listas de dados (vetores) Operações sobre cadeias de caracteres (strings) e datas Eventos JavaScript e funções com passagem de parâmetros Persistência dos dados de um programa com localStorage Inserção de elementos HTML via JavaScript com referência a DOM No capítulo final, um jogo em JavaScript e novos exemplos que exploram os recursos discutidos ao longo do livro são apresentados com comentários e dicas, a fim de incentivar o leitor a prosseguir nos estudos sobre programação.",
@@ -157,11 +140,9 @@
     "owner": 2,
     "situation": "Novo",
     "images": [
-      "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=Hz5ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 10,
@@ -175,10 +156,9 @@
     "owner": 1,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=hzNCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=hzNCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 11,
@@ -192,7 +172,6 @@
     "owner": 1,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=yc2YZFRjcAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=yc2YZFRjcAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -209,8 +188,6 @@
     "owner": 3,
     "situation": "Páginas Faltando",
     "images": [
-      "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=d_s4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -227,7 +204,6 @@
     "owner": 2,
     "situation": "Desgastado",
     "images": [
-      "http://books.google.com/books/content?id=eROWAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=eROWAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -244,8 +220,6 @@
     "owner": 1,
     "situation": "Novo",
     "images": [
-      "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=qt6RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -262,32 +236,25 @@
     "owner": 2,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=iZUXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 16,
-    "title": "Análise e avaliação de técnicas de interação humano-computador para sistemas de recuperação de imagens por conteúdo baseadas em um estudo de caso",
-    "author": "Ana Lúcia FILARDI",
+    "title": "O Guia do Mochileiro das Galáxias",
+    "author": "Douglas Adams",
+    "publisher": "Sextante",
     "description": "Técnicas CBIR, caracterização das imagens; atributos das imagens; sistema CBIR, técnicas interação homem-computador; inspeção de usabilidade; percurso cognitivo; avaliação heurística; revisão de guidelines; modelos preditivos; uso de trabalho prévio, testes de usabilidade; técnicas experimentais; técnicas observacionais, técnicas de questionamento; técnicas interpretativas; técnicas de monitoração; comparação dos métodos; Sistema CBIR aplicado à medicina; protópico MRI Browser; avaliação da interface; inspeção heurística; técnica observacional, medidas de usabilidade, critérios de medida, observação do usuário.",
-    "year": 2007,
+    "year": 2001,
     "pages": 131,
     "language": "pt",
     "owner": 3,
     "situation": "",
     "images": [
-      null,
-      null,
-      null,
-      null,
-      null
+      "https://images-na.ssl-images-amazon.com/images/I/51X+P0hPkoL._SX343_BO1,204,203,200_.jpg"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 17,
@@ -301,28 +268,23 @@
     "owner": 1,
     "situation": "Páginas Faltando",
     "images": [
-      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=4R0NtdbanpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
   },
   {
     "id": 18,
-    "title": "Algoritmos e Lógica de Programação em C  Uma Abordagem Didática",
-    "author": "Silvio Do Lago Pereira",
-    "publisher": "Saraiva Educação S.A.",
+    "title": "O Restaurante no Fim do Universo",
+    "author": "Douglas Adams",
+    "publisher": "Sextante",
     "description": "Especialista na área, professor universitário, mestre e doutor em Ciência da Computação, o autor desenvolveu esta publicação visando uma abordagem mais didática, usando o fluxograma como ferramenta básica para a introdução dos conceitos de sequência, seleção e repetição. Destaca algoritmo computacional, as técnicas para projeto de algoritmos estruturados, comandos para implementação de algoritmos em C, manipulação de dados em C, conceitos essenciais de programação, macros e funções, strings e matrizes. Traz exemplos de aplicação codificados em linguagem C - padrão ISO C99 - que podem ser executados em Windows, usando o compilador gratuito Pelles C, ou em Unix/Linux, usando os compiladores CC e GCC e exercícios para fixação dos assuntos estudados. É útil a estudantes e programadores em geral.",
-    "year": 2018,
+    "year": 2002,
     "pages": 99,
     "language": "pt",
     "owner": 2,
     "situation": "Páginas Faltando",
     "images": [
-      "http://books.google.com/books/content?id=LYdiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=LYdiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "https://images-na.ssl-images-amazon.com/images/I/51CU2FfZ0AL.jpg"
     ],
     "testimony": ""
   },
@@ -338,10 +300,6 @@
     "owner": 3,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=5KqoHjeEKkkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -358,8 +316,6 @@
     "owner": 2,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=keDdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -378,7 +334,7 @@
     "images": [
       "http://books.google.com/books/content?id=ol2pBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 22,
@@ -391,10 +347,9 @@
     "owner": 2,
     "situation": "Novo",
     "images": [
-      "http://books.google.com/books/content?id=FhUi2tLJD0AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=FhUi2tLJD0AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 23,
@@ -408,7 +363,6 @@
     "owner": 3,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=F4kmAeDBScEC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
       "http://books.google.com/books/content?id=F4kmAeDBScEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     ],
     "testimony": ""
@@ -425,17 +379,15 @@
     "owner": 2,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-      "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-      "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
       "http://books.google.com/books/content?id=O2-kAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 25,
-    "title": "BIBLIONLINE 2012 Ed. Esp.",
+    "title": "BIBLIONLINE 2012",
     "author": "Patrícia Silva e Wagner Junqueira de Araújo",
+    "edition": "Ed. Especial",
     "publisher": "UFPB-CSSA-DCI",
     "year": 2004,
     "pages": 57,
@@ -443,31 +395,25 @@
     "owner": 3,
     "situation": "Páginas Faltando",
     "images": [
-      "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=gXfFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 26,
-    "title": "Think, Act, Stay Safe with the R.E.A.C.T Approach to Self Defence",
-    "author": "Stephen W. Collins",
-    "publisher": "Steve Collins",
+    "title": "A Vida, o Universo e Tudo Mais",
+    "author": "Douglas Adams",
+    "publisher": "Sextante",
     "description": "As the newspapers and television constantly remind us, violent crime is on the increase, violence that can strike at you anywhere and at any time - on holiday, at work, on nights' out or during any one of a thousand everyday situations. But even if you are confronted by the unthinkable, you don't have to become a victim. This important new book shows you how you can protect yourself regardless of your age, sex or level of fitness by using the simple but effective REACT formula: R: Recognise E: Evaluate A: Alternatives C: Concentrate T: Terminate Using clear and concise step-by-step instructions, reinforced with many illustrations and diagrams, each of these five basic principles is expanded and explained in such a way that they quickly become 'second nature'. Following this sequence in any circumstance will allow you to recognise potential threats, decide on the best form of action to take and equip you carry to this through. While The R.E.A.C.T. Self defence System does concentrate on a dozen or so straightforward but effective self-protection combat techniques, it is not just another self-defence book, full of impractical or ineffective martial arts routines. What it does is heig",
-    "year": 2001,
+    "year": 2003,
     "pages": 160,
     "language": "en",
     "owner": 2,
     "situation": "Páginas Faltando",
     "images": [
-      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=Y66BI-D0wMsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "https://images-na.ssl-images-amazon.com/images/I/41TTuMIJVoL._SX331_BO1,204,203,200_.jpg"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 27,
@@ -481,18 +427,15 @@
     "owner": 3,
     "situation": "Desgastado",
     "images": [
-      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=f_zTEGBv2uAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
   },
   {
     "id": 28,
-    "title": "Ergonomia e Usabilidade 3ª edição",
+    "title": "Ergonomia e Usabilidade",
     "author": "Walter de Abreu Cybis, Adriana Holtz Betiol e Richard Faust",
+    "edition": "3ª edição",
     "publisher": "Novatec Editora",
     "description": "O livro Ergonomia e Usabilidade – Conhecimentos, Métodos e Aplicações aborda a aplicação da ergonomia no desenvolvimento de interfaces humano-computador que possam proporcionar usabilidade e marcar positivamente a experiência de seus usuários. Ele apresenta formas de adequar sites, aplicações e dispositivos interativos aos perfis e às estratégias de seus usuários e de satisfazer as suas expectativas em um contexto tecnológico em constante evolução. Expondo de maneira didática conteúdos selecionados a partir da experiência de consultoria, ensino e pesquisa de seus autores, este livro é uma opção abrangente e de qualidade para analistas, arquitetos de informação, projetistas de interfaces, web designers, programadores, estudantes, professores e pesquisadores da área. Principais tópicos abordados no livro: • Critérios, recomendações e padrões de projeto ergonômicos. • Abordagens para a concepção centrada no usuário e técnicas de análise, especificação, concepção, avaliação, testes e monitoramento de interfaces humano-computador. • Interfaces para sistemas especiais (dispositivos móveis, jogos e sistemas corporativos) e para usuários especiais (acessibilidade). • Conhecimentos sobre a experiência do usuário e sobre as teorias cognitivas que fundamentam os critérios, as recomendações e os padrões de projeto ergonômicos.",
     "year": 2015,
@@ -501,11 +444,9 @@
     "owner": 2,
     "situation": "Desgastado",
     "images": [
-      "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=AOa5CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 29,
@@ -519,26 +460,23 @@
     "owner": 2,
     "situation": "Páginas Faltando",
     "images": [
-      "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=qk0skwr_cewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 30,
-    "title": "Introdução e boas práticas em UX Design",
-    "author": "Fabricio Teixeira",
-    "publisher": "Editora Casa do Código",
+    "title": "Até Mais, e Obrigado pelos Peixes",
+    "author": "Douglas Adams",
+    "publisher": "Sextante",
     "description": "Cada vez mais o desenvolvimento do front-end de sites e sistemas tem papel preponderante em como o seu site converte, retém e agrada os usuários. Porém, além de saber como implementar uma tela, é importante saber também o que fazer nela. Quais recursos devem ser usados? Quais informações precisam ser exibidas? Em quais lugares? Atualmente, a experiência do usuário (User Experience - UX) tem ganhado um papel fundamental na criação de sites e aplicativos. Entender como o usuário se comportará no seu sistema é de extremo valor para criar um site simples para ele. Neste livro, Fabricio Teixeira mostra com exemplos práticos e reais de sucesso e insucesso de diferentes sites quais são as boas práticas e os pilares para conseguir construir um de uso agradável.",
-    "year": 2014,
+    "year": 2004,
     "pages": 263,
     "language": "pt",
     "owner": 3,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=vWuCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=vWuCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "https://images-na.ssl-images-amazon.com/images/I/412XNsc14ML._SX332_BO1,204,203,200_.jpg"
     ],
     "testimony": ""
   },
@@ -554,8 +492,6 @@
     "owner": 3,
     "situation": "Desgastado",
     "images": [
-      "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=LMS4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -572,8 +508,6 @@
     "owner": 3,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=mj-eAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -590,10 +524,6 @@
     "owner": 2,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -610,9 +540,6 @@
     "owner": 1,
     "situation": "Desgastado",
     "images": [
-      "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=S6GeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
     "testimony": ""
@@ -628,13 +555,9 @@
     "owner": 1,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=mXPFAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 36,
@@ -648,10 +571,9 @@
     "owner": 1,
     "situation": "Novo",
     "images": [
-      "http://books.google.com/books/content?id=6u3k1u0hEnoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=6u3k1u0hEnoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 37,
@@ -665,25 +587,23 @@
     "owner": 2,
     "situation": "",
     "images": [
-      "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=CyI6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 38,
-    "title": "HP-UX 11i Systems Administration Handbook and Toolkit",
-    "author": "Marty Poniatowski",
-    "publisher": "Prentice Hall Professional",
+    "title": "Praticamente Inofensiva",
+    "author": "Douglas Adams",
+    "publisher": "Sextante",
     "description": "HP-UX 11i System Administration Handbook and Toolkit, second edition, is your singlesource for everything HP-UX administrators need to know! Now updated to cover new HP-UX 11i andpartitioning enhancements, plus every essential UNIX command. Covers installation, boot, kernel,devices, users, groups, SAM, Veritas VM, LVM, optimization, networking, GNOME, auditing, UNIXfile types and commands, vi, and shell programming. Includes extensive new disk partitioningcoverage: vPars, PRM, nPartitions, and MC/ServiceGuard. CD-ROM: new HP-UX performance managementtrialware, sysadmin \"Cheat Sheets,\" and more.",
-    "year": 2003,
+    "year": 2005,
     "pages": 1390,
     "language": "en",
     "owner": 2,
     "situation": "Novo",
     "images": [
-      "http://books.google.com/books/content?id=0RUlaBWtFdUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "https://images-na.ssl-images-amazon.com/images/I/5142uTGVKhL._SX331_BO1,204,203,200_.jpg"
     ],
     "testimony": ""
   },
@@ -699,11 +619,9 @@
     "owner": 3,
     "situation": "Novo",
     "images": [
-      "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=5bnbGOsuUuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 40,
@@ -733,25 +651,21 @@
     "owner": 1,
     "situation": "Desgastado",
     "images": [
-      "http://books.google.com/books/content?id=hmWCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "http://books.google.com/books/content?id=hmWCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   },
   {
     "id": 42,
-    "title": "Arquitetura Da Informação Para Web: Um Estudo Do Portal Administradores.com.br",
-    "publisher": "UFPB-CSSA-DCI",
-    "year": 2017,
+    "title": "Step-By-Step Guide to Mastering Vue.js",
+    "year": 2019,
     "pages": 99,
     "language": "pt",
     "owner": 1,
     "situation": "Páginas Faltando",
     "images": [
-      "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "http://books.google.com/books/content?id=d2fXbuIpTw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "https://images-na.ssl-images-amazon.com/images/I/418NnKr2KKL.jpg"
     ],
-    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit, nulla cumque blanditiis. Commodi perferendis quaerat modi ratione tempore?"
+    "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo earum itaque error, officia illo libero neque iste tenetur nemo impedit."
   }
 ]
